@@ -1,0 +1,29 @@
+efren@efren-Lenovo-Flex-2-15:~$ sudo nmap -O 192.168.0.10 -sSU
+[sudo] password for efren: 
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-08-04 19:34 MST
+Nmap scan report for 192.168.0.10
+Host is up (0.00098s latency).
+Not shown: 1998 closed ports
+PORT      STATE         SERVICE
+1201/tcp  open          nucleus-sand
+49153/udp open|filtered unknown
+MAC Address: 00:24:59:0A:EB:89 (ABB Automation products GmbH)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=8/4%OT=1201%CT=1%CU=2%PV=Y%DS=1%DC=D%G=Y%M=002459%TM=5
+OS:F2A1BBF%P=x86_64-pc-linux-gnu)SEQ(SP=0%GCD=1%ISR=1B%TI=I%CI=I%TS=U)OPS(O
+OS:1=M5B4%O2=M5B4%O3=M5B4%O4=M5B4%O5=M5B4%O6=M5B4)WIN(W1=1770%W2=1770%W3=17
+OS:70%W4=1770%W5=1770%W6=1770)ECN(R=Y%DF=N%T=FF%W=1770%O=M5B4%CC=N%Q=)T1(R=
+OS:Y%DF=N%T=FF%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=N%T=FF%W=1770%S=O%A=S
+OS:+%F=AS%O=M5B4%RD=0%Q=)T4(R=Y%DF=N%T=FF%W=1770%S=A%A=S%F=AR%O=%RD=0%Q=)T5
+OS:(R=Y%DF=N%T=FF%W=1770%S=A%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=FF%W=1770%S
+OS:=A%A=S%F=AR%O=%RD=0%Q=)T7(R=Y%DF=N%T=FF%W=1770%S=A%A=S+%F=AR%O=%RD=0%Q=)
+OS:U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=S%T=FF%CD=S)
+
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 285.15 seconds
+

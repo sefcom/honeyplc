@@ -1,0 +1,13 @@
+# SIMATIC 1200 PLC
+Fingerprint Siemens Simatic 1200 programmable logic controller
+Class Siemens | embedded || specialized
+SEQ(SP=9E%GCD=1%ISR=A0%TI=I%TS=U)
+OPS(O1=M5B4%O2=M578%O3=M280%O4=M5B4%O5=M218%O6=M109)
+WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)
+ECN(R=Y%DF=N%TG=20%W=2000%O=M5B4%CC=N%Q=)
+T1(R=Y%DF=N%TG=20%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=Y%DF=N%TG=20%W=2000%S=O%A=O%F=A%O=%RD=0%Q=)
+T4(R=Y%DF=N%TG=20%W=2000%S=A%A=Z%F=R%O=%RD=0%Q=)
+U1(R=N)
+IE(R=Y%DFI=N%TG=20%CD=S)
