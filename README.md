@@ -68,9 +68,8 @@ Files of interest:
 
 ## Experimental Data
 
-### PLC Profiles
-
-### pcaps
+* [PLC Profiles](https://github.com/sefcom/honeyplc/tree/master/experiment-data/plc-profiles)
+* [AWS pcaps](https://github.com/sefcom/honeyplc/tree/master/experiment-data/pcaps)
 
 
 ## I have some questions!
