@@ -67,13 +67,14 @@ Files of interest:
 
 The Profiler tool creates creates a PLC Profile that can later be simulated by HoneyPLC.
 
-usage: profiler.py <address> <profile>
+usage: profiler.py &lt;address&gt; &lt;profile&gt;
 
 Run profiler.py to create a new HoneyPLC profile.
 Write the IP address of the PLC host.
 Write the name of the profile to be created.
 A new directory with the profile data will be created.
 
+Example
 `python profiler.py 192.168.0.100 NewProfile`
 
 ## Experimental Data
