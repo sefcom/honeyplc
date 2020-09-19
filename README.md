@@ -66,10 +66,13 @@ Files of interest:
 * fs.pickle - fake filesystem
 * honeyfs/ - file contents for the fake filesystem - feel free to copy a real system here
 
-## Is it secure?
+## Experimental Data
 
-Maybe. See [FAQ](https://github.com/desaster/kippo/wiki/FAQ)
+### PLC Profiles
+
+### pcaps
+
 
 ## I have some questions!
 
-I ~~am~~ _might be_ reachable via e-mail: *desaster* at *gmail* dot *com*, or as *desaster* on the *#honeypots* channel in the *freenode* IRC network.
+I ~~am~~ _might be_ reachable via e-mail: *edlopezm* at *asu* dot *edu*.
