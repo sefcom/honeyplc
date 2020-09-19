@@ -21,6 +21,7 @@ Some interesting logs from a live Kippo installation below (viewable within a we
 
 ## Features
 
+
 Some interesting features:
 * Fake filesystem with the ability to add/remove files. A full fake filesystem resembling a Debian 5.0 installation is included
 * Possibility of adding fake file contents so the attacker can 'cat' files such as /etc/passwd. Only minimal file contents are included
