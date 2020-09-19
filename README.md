@@ -1,5 +1,3 @@
-NOTE: For more recent development, check out [Michel Oosterhof's fork](https://github.com/micheloosterhof/cowrie)
-
 # HoneyPLC
 
 HoneyPLC is a high interaction PLC honeypot designed to simulate multiple PLC models from different vendors. It can log S7comm interactions and can store Ladder Logic programs injected by an attacker. It can also log SNMP get requests and HTTP login attempts.
@@ -37,12 +35,9 @@ Software required:
 * An operating system (tested on Ubuntu 18 LTS 64-bit)
 * [Honeyd](https://github.com/DataSoft/Honeyd)
 * Python 2.5+
+* [python-nmap](https://pypi.org/project/python-nmap/)
 * [snmpsim](https://github.com/etingof/snmpsim)
 * [lighttpd](https://www.lighttpd.net/)
-* PyCrypto
-* Zope Interface
-
-See Wiki for some installation instructions.
 
 ## How to install it?
 
@@ -67,6 +62,19 @@ Files of interest:
 * utils/createfs.py - used to create fs.pickle
 * fs.pickle - fake filesystem
 * honeyfs/ - file contents for the fake filesystem - feel free to copy a real system here
+
+## Profiler Tool
+
+The Profiler tool creates creates a PLC Profile that can later be simulated by HoneyPLC.
+
+usage: profiler.py <address> <profile>
+
+Run profiler.py to create a new HoneyPLC profile.
+Write the IP address of the PLC host.
+Write the name of the profile to be created.
+A new directory with the profile data will be created.
+
+`python profiler.py 192.168.0.100 NewProfile`
 
 ## Experimental Data
 
