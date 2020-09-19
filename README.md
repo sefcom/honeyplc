@@ -3,7 +3,9 @@ NOTE: For more recent development, check out [Michel Oosterhof's fork](https://g
 # HoneyPLC
 
 HoneyPLC is a high interaction PLC honeypot designed to simulate multiple PLC models from different vendors. It can log S7comm interactions and can store Ladder Logic programs injected by an attacker. It can also log SNMP get requests and HTTP login attempts.
+
 It is brought to you by the cybersecurity lab [SEFCOM at Arizona State University](http://sefcom.asu.edu) and [Efrén López](https://efrenlopezm.github.io/).
+
 The S7comm portion of HoneyPLC is built on top of [Snap7](https://github.com/SCADACS/snap7)
 
 ## Reference Research Papers
