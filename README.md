@@ -2,8 +2,13 @@ NOTE: For more recent development, check out [Michel Oosterhof's fork](https://g
 
 # HoneyPLC
 
-HoneyPLC is a high interaction PLC honeypot designed simulate multiple PLC models from different vendors. It can log S7comm interactions and can store Ladder Logic programs injected by an attacker. It can also log SNMP get requests and HTTP login attempts.
-It is brought to you by the cybersecurity lab [SEFCOM at Arizona State University](http://sefcom.asu.edu) and **[Efren Lopez](https://efrenlopezm.github.io/)**.
+HoneyPLC is a high interaction PLC honeypot designed to simulate multiple PLC models from different vendors. It can log S7comm interactions and can store Ladder Logic programs injected by an attacker. It can also log SNMP get requests and HTTP login attempts.
+It is brought to you by the cybersecurity lab [SEFCOM at Arizona State University](http://sefcom.asu.edu) and [Efrén López](https://efrenlopezm.github.io/).
+The S7comm portion of HoneyPLC is built on top of [Snap7](https://github.com/SCADACS/snap7)
+
+## Reference Research Papers
+
+* [HoneyPLC: A Next-Generation Honeypot for Industrial Control Systems (ACM CCS 2020)](https://www.sigsac.org/ccs/CCS2020/)
 
 ## Demo
 
@@ -27,13 +32,17 @@ Some interesting features:
 
 Software required:
 
-* An operating system (tested on Debian, CentOS, FreeBSD and Windows 7)
+* An operating system (tested on Ubuntu 18 LTS 64-bit)
+* [Honeyd](https://github.com/DataSoft/Honeyd)
 * Python 2.5+
-* Twisted 8.0 to 15.1.0
+* [snmpsim](https://github.com/etingof/snmpsim)
+* [lighttpd](https://www.lighttpd.net/)
 * PyCrypto
 * Zope Interface
 
 See Wiki for some installation instructions.
+
+## How to install it?
 
 ## How to run it?
 
