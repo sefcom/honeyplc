@@ -41,6 +41,8 @@ Software required:
 
 ## How to install it?
 
+New content
+
 ## How to run it?
 
 Edit kippo.cfg to your liking and start the honeypot by running:
