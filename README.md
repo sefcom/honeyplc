@@ -21,13 +21,11 @@ Some interesting logs from a live Kippo installation below (viewable within a we
 
 ## Features
 
-
-Some interesting features:
-* Fake filesystem with the ability to add/remove files. A full fake filesystem resembling a Debian 5.0 installation is included
-* Possibility of adding fake file contents so the attacker can 'cat' files such as /etc/passwd. Only minimal file contents are included
-* Session logs stored in an [UML Compatible](http://user-mode-linux.sourceforge.net/)  format for easy replay with original timings
-* Just like Kojoney, Kippo saves files downloaded with wget for later inspection
-* Trickery; ssh pretends to connect somewhere, exit doesn't really exit, etc
+S7comm features:
+* Fake PLC memory blocks with the ability to upload and download ladder logic programs.
+* Possibility to read PLC hardware information, e.g., firmware, name, model.
+* Interaction logs that include source IP address, S7comm function commands, blocks accessed, blocks downloaded/uploaded.
+* Possibility to capture Ladder logic programs and save them to filesystem for future analysis. 
 
 ## Requirements
 
@@ -42,7 +40,11 @@ Software required:
 
 ## How to install it?
 
-New content
+Install [Honeyd](https://github.com/DataSoft/Honeyd) and all its dependencies.
+
+* Append the necessary nmap fingerprints to the Honeyd fingerprint database:
+
+`/usr/share/honeyd/nmap-os-db`
 
 ## How to run it?
 
@@ -68,7 +70,7 @@ Files of interest:
 
 ## Profiler Tool
 
-The Profiler tool creates creates a PLC Profile that can later be simulated by HoneyPLC.
+The Profiler tool creates a PLC Profile that can later be simulated by HoneyPLC.
 
 usage: profiler.py &lt;address&gt; &lt;profile&gt;
 
@@ -83,7 +85,7 @@ Example
 ## Experimental Data
 
 * [PLC Profiles](https://github.com/sefcom/honeyplc/tree/master/experiment-data/plc-profiles)
-* [AWS pcaps](https://github.com/sefcom/honeyplc/tree/master/experiment-data/pcaps)
+* [AWS pcaps](https://drive.google.com/drive/folders/1xA3mu7gBI9aPSSlrjJo1S9r-VvZg_izl?usp=sharing)
 
 
 ## I have some questions!
