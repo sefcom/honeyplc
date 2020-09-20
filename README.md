@@ -46,6 +46,13 @@ Install [Honeyd](https://github.com/DataSoft/Honeyd) and all its dependencies.
 
 `/usr/share/honeyd/nmap-os-db`
 
+* Run Honeyd with the corresponding PLC Profile honeyd teamplate:
+Example
+`sudo honeyd -d -f config.s7-300 192.168.0.0/24`
+
+Install the modified Snap7 libsnap7.so file:
+`/usr/lib/libsnap7.so`
+
 ## How to run it?
 
 Edit kippo.cfg to your liking and start the honeypot by running:
