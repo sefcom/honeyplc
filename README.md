@@ -10,15 +10,6 @@ The S7comm portion of HoneyPLC is built on top of [Snap7](https://github.com/SCA
 
 * [HoneyPLC: A Next-Generation Honeypot for Industrial Control Systems (ACM CCS 2020)](https://www.sigsac.org/ccs/CCS2020/)
 
-## Demo
-
-Some interesting logs from a live Kippo installation below (viewable within a web browser with the help of Ajaxterm). Note that some commands may have been improved since these logs were recorded.
-
-  * [2009-11-22](http://kippo.rpg.fi/playlog/?l=20091122-075013-5055.log)
-  * [2009-11-23](http://kippo.rpg.fi/playlog/?l=20091123-003854-3359.log)
-  * [2009-11-23](http://kippo.rpg.fi/playlog/?l=20091123-012814-626.log)
-  * [2010-03-16](http://kippo.rpg.fi/playlog/?l=20100316-233121-1847.log)
-
 ## Features
 
 S7comm features:
@@ -81,21 +72,11 @@ Example
 
 `sudo honeyd -d -f config.s7-300 192.168.0.0/24`
 
-start.sh is a simple shell script that runs Kippo in the background using twistd. Detailed startup options can be given by running twistd manually. For example, to run Kippo in foreground:
+You can also run the S7comm Server separately passing the IP address argument:
 
-`twistd -y kippo.tac -n`
+Example
 
-By default Kippo listens for ssh connections on port 2222. You can change this, but do not change it to 22 as it requires root privileges. Use port forwarding instead. (More info: [MakingKippoReachable](https://github.com/desaster/kippo/wiki/Making-Kippo-Reachable)).
-
-Files of interest:
-
-* dl/ - files downloaded with wget are stored here
-* log/kippo.log - log/debug output
-* log/tty/ - session logs
-* utils/playlog.py - utility to replay session logs
-* utils/createfs.py - used to create fs.pickle
-* fs.pickle - fake filesystem
-* honeyfs/ - file contents for the fake filesystem - feel free to copy a real system here
+`sudo s7commServer 127.0.0.1`
 
 ## Profiler Tool
 
