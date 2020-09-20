@@ -78,6 +78,14 @@ Example
 
 `sudo s7commServer 127.0.0.1`
 
+The S7comm Server will save all interaction in `s7commS.log`
+The captured ladder logic programs will be saved in the same directory where the applicacion is.
+
+## How to modify source code and recompile?
+
+To rebuild the libsnap7.so library follow the steps in the [Snap7 Reference Manual]().
+The libsnap7.so file library contains the ladder logic capture code and the different Siemens PLCs hardware information.
+
 ## Profiler Tool
 
 The Profiler tool creates a PLC Profile that can later be simulated by HoneyPLC.
