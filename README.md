@@ -46,24 +46,40 @@ Install [Honeyd](https://github.com/DataSoft/Honeyd) and all its dependencies.
 
 `/usr/share/honeyd/nmap-os-db`
 
-* Run Honeyd with the corresponding PLC Profile honeyd teamplate:
-Example
-`sudo honeyd -d -f config.s7-300 192.168.0.0/24`
-
 Install S7comm Server and library.
 
 * Install the modified Snap7 libsnap7.so file:
+
 `/usr/lib/libsnap7.so`
 
 * Install the s7commServer file:
+
 `/usr/share/honeyd/s7commServer`
+
 `chmod 777 s7commServer`
 
 ## How to run it?
 
-Edit kippo.cfg to your liking and start the honeypot by running:
+Edit the honeyd template file with the correct IP address and subsystems paths.
 
-`./start.sh`
+Example:
+
+```
+create base
+add base subsystem "/usr/share/honeyd/s7commServer" shared restart
+
+clone host1 base
+set host1 personality "Siemens Simatic 300 programmable logic controller"
+
+
+bind 192.168.0.100 host1
+```
+
+Run Honeyd with the corresponding PLC Profile honeyd teamplate:
+
+Example
+
+`sudo honeyd -d -f config.s7-300 192.168.0.0/24`
 
 start.sh is a simple shell script that runs Kippo in the background using twistd. Detailed startup options can be given by running twistd manually. For example, to run Kippo in foreground:
 
