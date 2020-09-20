@@ -92,7 +92,7 @@ To rebuild the s7commServer navigate to the correct architecture, for example:
 
 `snap7/examples/cpp/x86_64-linux/`
 
-and make and look for the `server` file.
+`make` and look for the `server` file.
 
 ## Profiler Tool
 
@@ -110,7 +110,7 @@ Example
 
 ## Experimental Data
 
-* [PLC Profiles](https://github.com/sefcom/honeyplc/tree/master/experiment-data/plc-profiles)
+* [PLC Profiles](https://github.com/sefcom/honeyplc/tree/master/plc-profiles)
 * [AWS pcaps](https://drive.google.com/drive/folders/1xA3mu7gBI9aPSSlrjJo1S9r-VvZg_izl?usp=sharing)
 
 
