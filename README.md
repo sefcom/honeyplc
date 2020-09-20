@@ -50,8 +50,14 @@ Install [Honeyd](https://github.com/DataSoft/Honeyd) and all its dependencies.
 Example
 `sudo honeyd -d -f config.s7-300 192.168.0.0/24`
 
-Install the modified Snap7 libsnap7.so file:
+Install S7comm Server and library.
+
+* Install the modified Snap7 libsnap7.so file:
 `/usr/lib/libsnap7.so`
+
+* Install the s7commServer file:
+`/usr/share/honeyd/s7commServer`
+`chmod 777 s7commServer`
 
 ## How to run it?
 
