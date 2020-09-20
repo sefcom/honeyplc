@@ -1,0 +1,29 @@
+efren@efren-Lenovo-Flex-2-15:~$ sudo nmap -O 192.168.0.200 -sSU
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-08-04 18:08 MST
+Nmap scan report for 192.168.0.200
+Host is up (0.0015s latency).
+Not shown: 1000 open|filtered ports, 998 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+2222/tcp closed EtherNetIP-1
+MAC Address: 00:0F:73:01:99:84 (RS Automation)
+No OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=8/4%OT=80%CT=2222%CU=%PV=Y%DS=1%DC=D%G=Y%M=000F73%TM=5
+OS:F2A06A2%P=x86_64-pc-linux-gnu)SEQ(SP=82%GCD=1%ISR=9D%TI=I%CI=I%TS=U)SEQ(
+OS:SP=86%GCD=1%ISR=9D%TI=I%CI=RD%II=I%SS=S%TS=U)SEQ(SP=86%GCD=1%ISR=9D%TI=I
+OS:%TS=U)OPS(O1=M4000NNS%O2=M4000NNS%O3=M4000NNS%O4=M4000NNS%O5=M4000NNS%O6
+OS:=M4000NNS)WIN(W1=800%W2=800%W3=800%W4=800%W5=800%W6=800)ECN(R=Y%DF=N%TG=
+OS:80%W=800%O=M4000NNS%CC=N%Q=)T1(R=Y%DF=N%TG=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R
+OS:=Y%DF=N%TG=80%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T3(R=Y%DF=N%TG=80%W=800%S=O%A=S
+OS:+%F=AS%O=M4000NNS%RD=0%Q=)T4(R=Y%DF=N%TG=80%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T
+OS:5(R=Y%DF=N%TG=80%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T6(R=Y%DF=N%TG=80%W=0%S=A%A=
+OS:Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%TG=80%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)U1(R=N)IE(
+OS:R=Y%DFI=N%TG=80%CD=Z)
+
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 47.67 seconds
+
