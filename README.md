@@ -78,13 +78,21 @@ Example
 
 `sudo s7commServer 127.0.0.1`
 
-The S7comm Server will save all interaction in `s7commS.log`
+The S7comm Server will save all interactions in `s7commS.log`
+
 The captured ladder logic programs will be saved in the same directory where the applicacion is.
 
 ## How to modify source code and recompile?
 
-To rebuild the libsnap7.so library follow the steps in the [Snap7 Reference Manual]().
+To rebuild the libsnap7.so library follow the steps in the [Snap7 Reference Manual](https://github.com/sefcom/honeyplc/blob/master/snap7/doc/Snap7-refman.pdf).
+
 The libsnap7.so file library contains the ladder logic capture code and the different Siemens PLCs hardware information.
+
+To rebuild the s7commServer navigate to the correct architecture, for example:
+
+`snap7/examples/cpp/x86_64-linux/`
+
+and make and look for the `server` file.
 
 ## Profiler Tool
 
