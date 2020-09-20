@@ -39,11 +39,11 @@ Install [Honeyd](https://github.com/DataSoft/Honeyd) and all its dependencies.
 
 Install S7comm Server and library.
 
-* Install the modified Snap7 libsnap7.so file:
+* Install the modified Snap7 [libsnap7.so](https://github.com/sefcom/honeyplc/tree/master/snap7/build/bin/x86_64-linux) file:
 
 `/usr/lib/libsnap7.so`
 
-* Install the s7commServer file:
+* Install the [s7commServer](https://github.com/sefcom/honeyplc/blob/master/snap7/examples/cpp/x86_64-linux/server):
 
 `/usr/share/honeyd/s7commServer`
 
