@@ -98,7 +98,7 @@ Example
 
 `sudo s7commServer 127.0.0.1`
 
-The S7comm Server will save all interactions in `s7commS.log`
+The S7comm Server will save all interactions in `s7comm.log`
 
 The captured ladder logic programs will be saved in the same directory where the applicacion is.
 
