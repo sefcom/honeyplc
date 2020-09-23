@@ -8,7 +8,7 @@ It is brought to you by the cybersecurity lab [SEFCOM at Arizona State Universit
 
 The S7comm portion of HoneyPLC is built on top of [Snap7](https://github.com/SCADACS/snap7)
 
- <img src="architecture.png" alt="overview image" width="100%"> 
+ <img src="./images/architecture.png" alt="overview image" width="100%"> 
 
 ## Research Paper
 
