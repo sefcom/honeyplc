@@ -9,10 +9,8 @@ The S7comm portion of HoneyPLC is built on top of [Snap7](https://github.com/SCA
 ## Research Paper
 
 **HoneyPLC: A Next-Generation Honeypot for Industrial Control Systems** 
-[[PDF]](https://efrenlopezm.github.io/stuff/honeyplc-lopez-morales.pdf) 
-
-Efrén López-Morales, Carlos Rubio-Medrano, Adam Doupé, Yan Shoshitaishvili, Ruoyu (Fish) Wang, Tifanny Bao, Gail-Joon Ahn
-
+[[PDF]](https://efrenlopezm.github.io/stuff/honeyplc-lopez-morales.pdf) <br />
+Efrén López-Morales, Carlos Rubio-Medrano, Adam Doupé, Yan Shoshitaishvili, Ruoyu (Fish) Wang, Tifanny Bao, Gail-Joon Ahn<br />
 *In Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security (CCS ’20)*
 
 If you use *HoneyPLC* in a scientific publication, we would appreciate citations using this **Bibtex** entry:
