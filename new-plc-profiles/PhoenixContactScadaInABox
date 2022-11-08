@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Fri Jul 29 12:57:12 2022 as: nmap -vvv -O -p 1-10000 -oN PhoenixContactScadaInABox -e enp0s8 192.168.56.1
+Nmap scan report for 192.168.56.1 [host down, received no-response]
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Jul 29 12:57:13 2022 -- 1 IP address (0 hosts up) scanned in 0.95 seconds

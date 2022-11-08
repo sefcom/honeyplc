@@ -1,0 +1,40 @@
+# Nmap 7.60 scan initiated Fri Jul 29 15:10:26 2022 as: nmap -vvv -O -p 1-6000 -oN SiemensWindowsEmbedded2 -e enp0s8 192.168.1.1
+Increasing send delay for 192.168.1.1 from 0 to 5 due to 11 out of 28 dropped probes since last increase.
+Increasing send delay for 192.168.1.1 from 5 to 10 due to 11 out of 36 dropped probes since last increase.
+Increasing send delay for 192.168.1.1 from 10 to 20 due to 11 out of 33 dropped probes since last increase.
+Increasing send delay for 192.168.1.1 from 20 to 40 due to 11 out of 32 dropped probes since last increase.
+Increasing send delay for 192.168.1.1 from 40 to 80 due to 11 out of 31 dropped probes since last increase.
+Nmap scan report for 192.168.1.1
+Host is up, received arp-response (0.0012s latency).
+Scanned at 2022-07-29 15:10:26 PDT for 453s
+Not shown: 5994 filtered ports
+Reason: 5994 no-responses
+PORT     STATE SERVICE     REASON
+102/tcp  open  iso-tsap    syn-ack ttl 128
+515/tcp  open  printer     syn-ack ttl 128
+2103/tcp open  zephyr-clt  syn-ack ttl 128
+2105/tcp open  eklogin     syn-ack ttl 128
+2107/tcp open  msmq-mgmt   syn-ack ttl 128
+4410/tcp open  itwo-server syn-ack ttl 128
+MAC Address: 28:63:36:2D:96:95 (Siemens AG - Industrial Automation - EWA)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized|phone
+Running: Microsoft Windows 2008|8.1|7|Phone|Vista
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8.1 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1
+OS details: Microsoft Windows Server 2008 R2 or Windows 8.1, Microsoft Windows Embedded Standard 7, Microsoft Windows Phone 7.5 or 8.0, Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7, Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=7/29%OT=102%CT=%CU=%PV=Y%DS=1%DC=D%G=N%M=286336%TM=62E
+OS:45C97%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=105%TI=I%TS=7)OPS(O1=M5
+OS:B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8ST11%O5=M5B4NW8ST11%O
+OS:6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%D
+OS:F=Y%TG=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD
+OS:=0%Q=)T2(R=N)T3(R=N)T4(R=N)U1(R=N)IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Uptime guess: 0.091 days (since Fri Jul 29 13:06:25 2022)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 29 15:17:59 2022 -- 1 IP address (1 host up) scanned in 453.50 seconds

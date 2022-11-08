@@ -1,0 +1,1 @@
+# Nmap 7.60 scan initiated Thu Jul 28 15:30:54 2022 as: nmap -vvv -p 1-1200 -O -sU -oN siemens1200.fingerprint -e enp0s10 192.168.1.1

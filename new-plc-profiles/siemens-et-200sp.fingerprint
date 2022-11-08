@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Thu Jul 28 16:15:35 2022 as: nmap -vvv -O -oN siemens-et-200sp.fingerprint 192.168.1.1
+Nmap scan report for 192.168.1.1 [host down, received no-response]
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Jul 28 16:15:36 2022 -- 1 IP address (0 hosts up) scanned in 0.77 seconds

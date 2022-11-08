@@ -1,0 +1,5 @@
+--2022-07-29 11:48:32--  http://192.168.103.15/
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/index.html’

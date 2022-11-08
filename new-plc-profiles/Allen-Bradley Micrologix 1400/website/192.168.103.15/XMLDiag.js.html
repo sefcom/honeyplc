@@ -1,0 +1,7 @@
+var TotalT=8,xmlhttp,xmlDoc,timeoutPntr;
+function loadXMLDoc(url) {xmlhttp=null;xmlDoc=null;if(window.ActiveXObject){xmlDoc=new ActiveXObject("Microsoft.XMLDOM");xmlDoc.async=false;xmlDoc.load(url);timeoutPntr=setTimeout('onErr()',30000);if (xmlDoc.parseError.errorCode==0) onResponse();else onErr();}else if(window.XMLHttpRequest){xmlhttp=new XMLHttpRequest();xmlhttp.onreadystatechange=onResponse;xmlhttp.open("GET",url, true);xmlhttp.setRequestHeader('If-Modified-Since', 'Wed, 15 Nov 1995 00:00:00 GMT');xmlhttp.send(null);timeoutPntr=setTimeout('onErr()',30000);}}
+function onErr(){if (document.getElementById("refresh")){document.getElementById("refresh").value=0;refreshEnd();for(j=1;j<TotalT;j++)	document.getElementById("T"+j).innerHTML="?????";}clearTimeout(timeoutPntr);}
+function onResponse(){if(xmlhttp!=null&&xmlhttp.readyState != 4)return;for(j=1;j<TotalT;j++){
+try{if (xmlhttp != null) {xx=xmlhttp.responseXML.documentElement.getElementsByTagName("T"+j);txt=xx[0].firstChild.data;}if(xmlDoc!=null) {xx=xmlDoc.getElementsByTagName("T"+j); txt=xx[0].childNodes[0].nodeValue;}}
+catch(e){txt="???";}
+document.getElementById("T"+j).innerHTML=txt;}clearTimeout(timeoutPntr);}

@@ -1,0 +1,550 @@
+--2022-07-29 12:37:01--  http://192.168.103.15/
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/index.html’
+
+     0K                                                        41.6K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:37:01 (41.6 KB/s) - ‘192.168.103.15/index.html’ saved [845]
+
+Loading robots.txt; please ignore errors.
+--2022-07-29 12:37:01--  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:02--  (try: 2)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:04--  (try: 3)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:07--  (try: 4)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:11--  (try: 5)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:16--  (try: 6)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:22--  (try: 7)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:29--  (try: 8)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:37--  (try: 9)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:46--  (try:10)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:37:56--  (try:11)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:38:06--  (try:12)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:38:16--  (try:13)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:38:26--  (try:14)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:38:36--  (try:15)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:38:46--  (try:16)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:38:56--  (try:17)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:39:06--  (try:18)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:39:16--  (try:19)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:39:26--  (try:20)  http://192.168.103.15/robots.txt
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... No data received.
+Giving up.
+
+--2022-07-29 12:39:26--  http://192.168.103.15/redirect.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 137
+Saving to: ‘192.168.103.15/redirect.htm’
+
+     0K                                                       100% 13.4K=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:26 (13.4 KB/s) - ‘192.168.103.15/redirect.htm’ saved [137/137]
+
+--2022-07-29 12:39:26--  http://192.168.103.15/header.htm
+Reusing existing connection to 192.168.103.15:80.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:39:27--  (try: 2)  http://192.168.103.15/header.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/header.htm’
+
+     0K                                                        24.4K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:27 (24.4 KB/s) - ‘192.168.103.15/header.htm’ saved [521]
+
+--2022-07-29 12:39:27--  http://192.168.103.15/navtree.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5297 (5.2K)
+Saving to: ‘192.168.103.15/navtree.htm’
+
+     0K .....                                                 100% 47.0K=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:27 (47.0 KB/s) - ‘192.168.103.15/navtree.htm’ saved [5297/5297]
+
+--2022-07-29 12:39:27--  http://192.168.103.15/home.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/home.htm’
+
+     0K .                                                      22.1K=0.08s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:27 (22.1 KB/s) - ‘192.168.103.15/home.htm’ saved [1811]
+
+--2022-07-29 12:39:27--  http://192.168.103.15/URLhdl.js
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6148 (6.0K)
+Saving to: ‘192.168.103.15/URLhdl.js.html’
+
+     0K ......                                                100% 46.4K=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:28 (46.4 KB/s) - ‘192.168.103.15/URLhdl.js.html’ saved [6148/6148]
+
+--2022-07-29 12:39:28--  http://192.168.103.15/ablogo.gif
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926
+Saving to: ‘192.168.103.15/ablogo.gif.html’
+
+     0K                                                       100% 46.7K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:28 (46.7 KB/s) - ‘192.168.103.15/ablogo.gif.html’ saved [926/926]
+
+--2022-07-29 12:39:28--  http://192.168.103.15/ralogo.gif
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1099 (1.1K)
+Saving to: ‘192.168.103.15/ralogo.gif.html’
+
+     0K .                                                     100% 34.0K=0.03s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:28 (34.0 KB/s) - ‘192.168.103.15/ralogo.gif.html’ saved [1099/1099]
+
+--2022-07-29 12:39:28--  http://192.168.103.15/navtree.css
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 589
+Saving to: ‘192.168.103.15/navtree.css.html’
+
+     0K                                                       100% 28.9K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:28 (28.9 KB/s) - ‘192.168.103.15/navtree.css.html’ saved [589/589]
+
+--2022-07-29 12:39:28--  http://192.168.103.15/navtree.js
+Reusing existing connection to 192.168.103.15:80.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:39:29--  (try: 2)  http://192.168.103.15/navtree.js
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5817 (5.7K)
+Saving to: ‘192.168.103.15/navtree.js.html’
+
+     0K .....                                                 100% 47.3K=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:29 (47.3 KB/s) - ‘192.168.103.15/navtree.js.html’ saved [5817/5817]
+
+--2022-07-29 12:39:29--  http://192.168.103.15/paper.gif
+Reusing existing connection to 192.168.103.15:80.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:39:30--  (try: 2)  http://192.168.103.15/paper.gif
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 146
+Saving to: ‘192.168.103.15/paper.gif.html’
+
+     0K                                                       100% 13.7K=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:30 (13.7 KB/s) - ‘192.168.103.15/paper.gif.html’ saved [146/146]
+
+--2022-07-29 12:39:30--  http://192.168.103.15/folder.gif
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 145
+Saving to: ‘192.168.103.15/folder.gif.html’
+
+     0K                                                       100% 14.2K=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:30 (14.2 KB/s) - ‘192.168.103.15/folder.gif.html’ saved [145/145]
+
+--2022-07-29 12:39:30--  http://192.168.103.15/dataview.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/dataview.htm’
+
+     0K .                                                      24.4K=0.07s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:30 (24.4 KB/s) - ‘192.168.103.15/dataview.htm’ saved [1735]
+
+--2022-07-29 12:39:30--  http://192.168.103.15/newdata.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/newdata.htm’
+
+     0K .                                                      24.4K=0.07s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:30 (24.4 KB/s) - ‘192.168.103.15/newdata.htm’ saved [1735]
+
+--2022-07-29 12:39:30--  http://192.168.103.15/user1.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/user1.htm’
+
+     0K                                                         965 =0.07s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:30 (965 B/s) - ‘192.168.103.15/user1.htm’ saved [67]
+
+--2022-07-29 12:39:30--  http://192.168.103.15/user2.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/user2.htm’
+
+     0K                                                        29.2K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:30 (29.2 KB/s) - ‘192.168.103.15/user2.htm’ saved [592]
+
+--2022-07-29 12:39:30--  http://192.168.103.15/user3.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/user3.htm’
+
+     0K                                                        29.9K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:30 (29.9 KB/s) - ‘192.168.103.15/user3.htm’ saved [592]
+
+--2022-07-29 12:39:30--  http://192.168.103.15/user4.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/user4.htm’
+
+     0K                                                        30.1K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:30 (30.1 KB/s) - ‘192.168.103.15/user4.htm’ saved [592]
+
+--2022-07-29 12:39:30--  http://192.168.103.15/user5.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/user5.htm’
+
+     0K                                                        18.7K=0.03s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (18.7 KB/s) - ‘192.168.103.15/user5.htm’ saved [592]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/user6.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/user6.htm’
+
+     0K                                                        29.3K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (29.3 KB/s) - ‘192.168.103.15/user6.htm’ saved [592]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/user7.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/user7.htm’
+
+     0K                                                        29.4K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (29.4 KB/s) - ‘192.168.103.15/user7.htm’ saved [592]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/user8.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/user8.htm’
+
+     0K                                                        28.9K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (28.9 KB/s) - ‘192.168.103.15/user8.htm’ saved [592]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/diagover.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2426 (2.4K)
+Saving to: ‘192.168.103.15/diagover.htm’
+
+     0K ..                                                    100% 47.3K=0.05s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (47.3 KB/s) - ‘192.168.103.15/diagover.htm’ saved [2426/2426]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/netset.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/netset.htm’
+
+     0K .                                                      17.9K=0.09s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (17.9 KB/s) - ‘192.168.103.15/netset.htm’ saved [1646]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/netstat.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3095 (3.0K)
+Saving to: ‘192.168.103.15/netstat.htm’
+
+     0K ...                                                   100% 43.2K=0.07s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (43.2 KB/s) - ‘192.168.103.15/netstat.htm’ saved [3095/3095]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/svr_set.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/svr_set.htm’
+
+     0K .                                                      24.3K=0.07s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (24.3 KB/s) - ‘192.168.103.15/svr_set.htm’ saved [1735]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/adm_user.htm
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: ‘192.168.103.15/adm_user.htm’
+
+     0K .                                                      24.3K=0.07s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (24.3 KB/s) - ‘192.168.103.15/adm_user.htm’ saved [1735]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/radevice.css
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3125 (3.1K)
+Saving to: ‘192.168.103.15/radevice.css.html’
+
+     0K ...                                                   100% 43.7K=0.07s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (43.7 KB/s) - ‘192.168.103.15/radevice.css.html’ saved [3125/3125]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/mendon.gif
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 131
+Saving to: ‘192.168.103.15/mendon.gif.html’
+
+     0K                                                       100% 13.2K=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:31 (13.2 KB/s) - ‘192.168.103.15/mendon.gif.html’ saved [131/131]
+
+--2022-07-29 12:39:31--  http://192.168.103.15/refresh.js
+Reusing existing connection to 192.168.103.15:80.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:39:32--  (try: 2)  http://192.168.103.15/refresh.js
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1422 (1.4K)
+Saving to: ‘192.168.103.15/refresh.js.html’
+
+     0K .                                                     100% 46.5K=0.03s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:32 (46.5 KB/s) - ‘192.168.103.15/refresh.js.html’ saved [1422/1422]
+
+--2022-07-29 12:39:32--  http://192.168.103.15/XMLDiag.js
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1191 (1.2K)
+Saving to: ‘192.168.103.15/XMLDiag.js.html’
+
+     0K .                                                     100% 40.2K=0.03s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:32 (40.2 KB/s) - ‘192.168.103.15/XMLDiag.js.html’ saved [1191/1191]
+
+--2022-07-29 12:39:32--  http://192.168.103.15/msonoff.gif
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 124
+Saving to: ‘192.168.103.15/msonoff.gif.html’
+
+     0K                                                       100% 12.3K=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:33 (12.3 KB/s) - ‘192.168.103.15/msonoff.gif.html’ saved [124/124]
+
+--2022-07-29 12:39:33--  http://192.168.103.15/msoffoff.gif
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 121
+Saving to: ‘192.168.103.15/msoffoff.gif.html’
+
+     0K                                                       100% 12.0K=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:33 (12.0 KB/s) - ‘192.168.103.15/msoffoff.gif.html’ saved [121/121]
+
+--2022-07-29 12:39:33--  http://192.168.103.15/mendoff.gif
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 112
+Saving to: ‘192.168.103.15/mendoff.gif.html’
+
+     0K                                                       100% 11.3K=0.01s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:33 (11.3 KB/s) - ‘192.168.103.15/mendoff.gif.html’ saved [112/112]
+
+--2022-07-29 12:39:33--  http://192.168.103.15/msoffon.gif
+Reusing existing connection to 192.168.103.15:80.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2022-07-29 12:39:34--  (try: 2)  http://192.168.103.15/msoffon.gif
+Connecting to 192.168.103.15:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 130
+Saving to: ‘192.168.103.15/msoffon.gif.html’
+
+     0K                                                       100% 13.4K=0.009s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 12:39:34 (13.4 KB/s) - ‘192.168.103.15/msoffon.gif.html’ saved [130/130]
+
+FINISHED --2022-07-29 12:39:34--
+Total wall clock time: 2m 33s
+Downloaded: 35 files, 47K in 1.5s (32.1 KB/s)
+Converting links in 192.168.103.15/navtree.css.html... nothing to do.
+Converting links in 192.168.103.15/navtree.js.html... nothing to do.
+Converting links in 192.168.103.15/diagover.htm... 9-0
+Converting links in 192.168.103.15/svr_set.htm... 2-1
+Converting links in 192.168.103.15/user4.htm... nothing to do.
+Converting links in 192.168.103.15/folder.gif.html... nothing to do.
+Converting links in 192.168.103.15/dataview.htm... 2-1
+Converting links in 192.168.103.15/netset.htm... 7-0
+Converting links in 192.168.103.15/user3.htm... nothing to do.
+Converting links in 192.168.103.15/msoffon.gif.html... nothing to do.
+Converting links in 192.168.103.15/home.htm... 3-0
+Converting links in 192.168.103.15/index.html... 4-0
+Converting links in 192.168.103.15/user2.htm... nothing to do.
+Converting links in 192.168.103.15/refresh.js.html... nothing to do.
+Converting links in 192.168.103.15/XMLDiag.js.html... nothing to do.
+Converting links in 192.168.103.15/user1.htm... nothing to do.
+Converting links in 192.168.103.15/mendon.gif.html... nothing to do.
+Converting links in 192.168.103.15/radevice.css.html... nothing to do.
+Converting links in 192.168.103.15/mendoff.gif.html... nothing to do.
+Converting links in 192.168.103.15/newdata.htm... 2-1
+Converting links in 192.168.103.15/msoffoff.gif.html... nothing to do.
+Converting links in 192.168.103.15/redirect.htm... 1-0
+Converting links in 192.168.103.15/ralogo.gif.html... nothing to do.
+Converting links in 192.168.103.15/adm_user.htm... 2-1
+Converting links in 192.168.103.15/user8.htm... nothing to do.
+Converting links in 192.168.103.15/msonoff.gif.html... nothing to do.
+Converting links in 192.168.103.15/paper.gif.html... nothing to do.
+Converting links in 192.168.103.15/user7.htm... nothing to do.
+Converting links in 192.168.103.15/ablogo.gif.html... nothing to do.
+Converting links in 192.168.103.15/header.htm... 2-0
+Converting links in 192.168.103.15/netstat.htm... 9-0
+Converting links in 192.168.103.15/URLhdl.js.html... nothing to do.
+Converting links in 192.168.103.15/user6.htm... nothing to do.
+Converting links in 192.168.103.15/navtree.htm... 44-0
+Converting links in 192.168.103.15/user5.htm... nothing to do.
+Converted links in 35 files in 0.008 seconds.

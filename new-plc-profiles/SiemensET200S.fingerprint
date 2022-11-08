@@ -1,0 +1,1 @@
+# Nmap 7.60 scan initiated Fri Jul 29 10:42:32 2022 as: nmap -vvv -O -p 1-60000 -oN SiemensET200S.fingerprint -e enp0s10 192.168.56.1
