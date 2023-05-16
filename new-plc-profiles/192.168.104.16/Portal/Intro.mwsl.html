@@ -1,0 +1,110 @@
+
+    <!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+      <head>
+        <title>Intro</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Cache-Control" Content="no-cache">
+        <meta http-equiv="Pragma" Content="no-cache">
+        <meta http-equiv="Expires" Content="-1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+        <!-- include general stylesheets for display and print ========================================================= -->
+        <link rel="stylesheet" type="text/css" href="../CSS/MiniWeb.css" media="all">
+
+        <!-- include a conditional stylesheet for Internet Explorer -->
+        <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/CSS/MiniWebIE.css" media="all"><![endif]-->
+
+        <link rel="stylesheet" type="text/css" href="../CSS/S7Web.css">
+    </head>
+    <body>
+    <!-- wrapper over all content ====================================================================================== -->
+    <div id="page">
+      <!-- header area ================================================================================================= -->
+      <div id="headerArea" style="min-width: 950px;">
+        <!-- Siemens logo -->
+        <img id="logo" src="../Images/Siemens_Firmenmarke.gif" alt="Siemens" />
+
+        <div id="intoLinks">
+          <a class="Header_Link" href="http://www.siemens.com/automation/mall" target="_blank">mall</a>
+          <a class="Header_Link" href="http://www.siemens.com/simatic-controller" target="_blank">simatic-controller</a>
+          <a class="Header_Link" href="http://www.siemens.com/automation/service&amp;support" target="_blank">service&support</a>
+          <span class="Header_Link_Inactive">download certificate</span>
+          </div>
+        <div class="clearer"></div>
+      </div>
+      <!-- header area end ============================================================================================= -->
+      <!-- date time bar =============================================================================================== -->
+      <div id="dateTimeBar" style="min-width: 950px;">
+
+        <!-- language selection ======================================================================================== -->
+        <form id="languageSelectionForm" name="languageSelectionForm" action="http://192.168.104.16/Portal/ChangeLanguage.mwsl" method="GET" autocomplete="off">
+          <select name="Language" onchange="DoLocalLanguageChange(this)">
+          <option value="de" >Deutsch</option><option value="en" selected>English</option><option value="fr" >Français</option><option value="it" >Italiano</option><option value="es" >Español</option><option value="ja" >日本語</option><option value="zh" >中文</option><option value="ko" >한국어</option><option value="ru" >Русский</option><option value="tr" >Türkçe</option><option value="pt" >Português</option>
+          </select>
+
+          <button type="submit" name="submit" id="languageGoButton" value="Go" class="text">Go</button>
+          <div class="clearer"></div>
+        </form>
+        <!-- language selection end ==================================================================================== -->
+      </div>
+      <!-- date time bar end =========================================================================================== -->
+      <div id="separatorLine1" style="min-width: 950px;"></div><!-- separator line above login box/title area -->
+
+      <!-- Intro Area ================================================================================================== -->
+      <div id="introArea">
+
+        <form class="enterformclass" action="http://192.168.104.16/Portal/Portal.mwsl" method="get">
+
+            <img class="intro_image" src="../cpu/intro/CPU1511C.jpg" alt="siemens intro image">
+            <div id="position_intro_enter">
+              <input type="submit" class="intro_enter" value="ENTER" name="intro_enter_button" style="height: 22px;">
+              <input type="image" alt="ENTER" class="intro_enter" src="../Images/intro_enter_arrow.gif">
+            </div>
+
+            <input type="hidden" name="PriNav" value="Start">
+            <input type="hidden" name="coming_from_intro" value="true">
+
+            <div id="position_intro_no_intro">
+              <input type="checkbox" class="no_intro_checkbox" name="no_intro" style="background-color: transparent">
+              <span style="color: #ffffff;">Skip Intro</span>
+            </div> <!-- panel font -->
+
+        </form>
+
+      </div>
+      <!-- Intro Area end ============================================================================================== -->
+      <div class="clearer"></div>
+    </div>
+    <!-- wrapper over all content end ================================================================================== -->
+
+    <!-- Callback for the change of language =========================================================================== -->
+    <script type="text/javascript">
+      function DoLocalLanguageChange(oSelect)
+      {
+          var strval;
+          strval = "siemens_automation_language=";
+          strval = strval + oSelect.value;
+          strval = strval + "; expires=Mon, 02 Jul 2062 21:19:33 GMT; path=/ ;";
+          document.cookie = strval;
+          top.window.location.reload();
+          return false;
+        }
+    </script>
+
+    <!-- script to hide the go buttons at language selection and title drop-down menu ================================== -->
+    <script type="text/javascript">
+      if (document.getElementById('languageGoButton' ))
+      {
+        document.getElementById('languageGoButton').style.display = 'none';
+      }
+      if (document.getElementById('dropdownMenuGoButton' ))
+      {
+        document.getElementById('dropdownMenuGoButton').style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
+   
+
+

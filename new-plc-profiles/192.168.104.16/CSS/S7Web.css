@@ -1,0 +1,2680 @@
+/***********************************************************************************/
+/* Portal definitions */
+/***********************************************************************************/
+body
+{
+    margin: 0px; /* neccesary for iframes */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    color: #000;
+}
+
+body.block-all, body.block-all *
+{
+	cursor:wait !important;
+}
+
+body.block-all
+{
+	height:100%;
+}
+
+span#time
+ {
+   white-space      : nowrap;
+ }
+
+form#DateTimeSelectionForm
+{
+  float            : right;
+  margin-right     : 12px;
+}
+
+form#DateTimeSelectionForm select
+{
+  margin: 0; 
+  height: 20px;
+}
+
+ .Login_Table
+ {
+    width: 100%;
+ }
+
+ .Login_Table_SpaceRow
+ {
+    width: 100%;
+    height: 7px;
+ }
+
+ .Login_Table_Row
+ {
+    width: 100%;
+ }
+
+ .Login_Table_SpaceCell
+ {
+    width: 8px;
+ }
+
+ .Login_Table_LeftCell
+ {
+    width: 70%;
+ }
+
+ .Login_Table_RightCell
+ {
+    width: 30%;
+ }
+
+ #Login_Area_Form       /*used in Portal/Formlogin.mwsl*/
+ {
+  margin          : 0px;
+  padding         : 0px;
+ }
+
+ #Login_Area_Input_Name
+ {
+  position       : absolute;
+  top            : 11px;
+  left           : 12px;
+  font-size      : 12px;
+  height         : 18px;
+  width          : 110px;
+  border         : 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+ }
+
+ #Login_Area_Input_Password
+ {
+  position       : absolute;
+  top            : 35px;
+  left           : 12px;
+  font-size      : 12px;
+  height         : 18px;
+  width          : 110px;
+  border         : 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+ }
+
+ #Login_Area_Button
+ {
+  position        : absolute;
+  top             : 36px;
+  right           : 0px;
+  border          : 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+  text-decoration : underline;
+  font-size       : 10px;
+  background-color  : #AFB4BE;
+  width           : 60px;
+  overflow        : visible;
+  white-space:nowrap;
+ }
+
+ #login_box_table
+ {
+  width:100%;
+  height:100%;
+  border-collapse:collapse;
+  border:0px solid #000000;
+  margin:0px;
+ }
+
+ input.Login_Input
+ {
+  margin          : 0px;
+  padding         : 0px;
+  border          : 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+  font-size       : 12px;
+  height          : 18px;
+  width           : 100%;
+ }
+
+ input.Login_Input_Ghost
+ {
+  margin          : 0px;
+  padding         : 0px;
+  border          : 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+  font-size       : 12px;
+  height          : 18px;
+  width           : 100%;
+  color           : #AFB4BE;
+ }
+
+ .Login_InvalidLogin
+ {
+   text-align: left;
+   padding-left: 7px;
+   color: #BA0000;
+   font-size: 9px;
+   font-weight: bold;
+   white-space: nowrap;
+ }
+
+.Login_InvalidLoginFromPage
+ {
+   text-align: left;
+   padding-left: 7px;
+   color: #BA0000;
+   font-size: 12px;
+   font-weight: bold;
+   white-space: nowrap;
+ }
+
+ .Login_Botton_Cell
+ {
+   padding         : 0px;
+   padding-top     : 6px;
+   padding-bottom  : 3px;
+   margin          : 0px;
+   white-space:nowrap;
+
+ }
+
+ .Login_Button
+ {
+  border          : 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+  text-decoration : underline;
+  font-size       : 12px;
+  background-color  : #AFB4BE;
+  white-space:nowrap;
+  color           : #000080;
+ }
+
+/******** login form (page) begins *******/
+
+ #login_page_table
+ {
+  margin:0px;
+  margin-left:209px;  /* 337-116-12 */
+  margin-top:130px;   /* 274-78-60-6 */
+  padding:0px;
+  empty-cells:show;
+  border-collapse: collapse;
+  width:243px;
+  overflow: visible;
+ }
+
+ #login_page_tr_headline{
+  padding:0px;
+  margin:0px;
+ }
+
+ #login_page_td_headline
+ {
+  padding:0px;
+  margin:0px;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:51px;
+  font-weight:bold;
+  color:#AFBEBE;
+  text-transform:uppercase;
+  text-align:right;
+  overflow: visible;
+ }
+
+ .login_page_gap
+ {
+   height:11px;
+ }
+
+ .login_page_td_input
+ {
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+ }
+
+ .login_page_input
+ {
+  height:26px;
+  width: 183px;
+  padding:0px;
+  padding-top:4px;
+  margin:0px;
+  border: 0px solid;
+  font-size: 14px;
+ }
+
+ .login_page_tr_text
+ {
+  padding:0px;
+  margin:0px;
+ }
+
+ .login_page_td_text
+ {
+  padding: 0px;
+  padding-top:4px;
+  padding-right:2px;
+  margin:0px;
+  font-size:12px;
+  font-family:Arial,Helvetica,sans-serif;
+  white-space:nowrap;
+  color: grey;
+ }
+
+ #login_page_td_button
+ {
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+  white-space:nowrap;
+ }
+
+ #login_page_button
+  {
+  width           : 100%;
+  padding         : 0px;
+  margin          : 0px;
+  border          : 0px solid;
+  text-decoration : underline;
+  font-size       : 12px;
+  font-family     : Arial,Helvetica,sans-serif;
+  text-align      : right;
+  background-color: #EAEAEA;
+  color           : grey;
+  white-space     : nowrap;
+ }
+
+/******** login form (page) ends *********/
+ .Title_Area /*used in "Templates/AppNavigaton.xml"*/
+ {
+  width            : 100%;
+  height           : 60px;
+  background-color : #CCCCCC;
+  border           : 0px;
+  border-bottom    : 1px solid #FFFFFF;
+  vertical-align   : top;
+  padding          : 0px;
+  margin           : 0px;
+  border-collapse  : collapse;
+  border-spacing   : 0px;
+ }
+
+  .Title_Area_Topo
+ {
+  width            : 100%;
+  height           : 61px;
+  background-color : #CCCCCC;
+  border           : 0px;
+  border-bottom    : 1px solid #FFFFFF;
+  vertical-align   : top;
+  padding          : 0px;
+  margin           : 0px;
+  border-collapse  : collapse;
+  border-spacing   : 0px;
+ }
+
+ table.Title_Area_Table
+ {
+  width            : 100%;
+  height           : 100%;
+  padding          : 0px;
+  margin           : 0px;
+  border           : 0px;
+ }
+
+ td.Title_Area_Name
+ {
+  padding         : 0px;
+  padding-left    : 11px; /*129px - 118 px*/
+  padding-top     : 7px;  /*83px - 76px*/
+  vertical-align  : top;
+  color           : #666666;
+  font-size       : 16px;
+  font-weight     : bold;
+  font-variant    : normal;
+ }
+
+ a.PrinterIcon_Active
+ {
+    text-decoration: none;
+ }
+
+ td.Title_Area_PrinterIcon
+ {
+  text-align      : right;
+  vertical-align  : bottom;
+  padding         : 0px;
+  padding-right   : 33px;
+  padding-bottom  : 10px;  /*76px + 60px -126px*/
+  width           : 20px;
+ }
+ span.Title_Area_PrinterIcon_Alarme
+ {
+  text-align      : right;
+  vertical-align  : bottom;
+  padding         : 0px;
+  padding-right   : 33px;
+  padding-left    : 4px;
+  width           : 20px;
+ }
+  td.Title_Area_Icons_Alarme
+ {
+  text-align      : right;
+  vertical-align  : bottom;
+  padding         : 0px;
+  padding-bottom  : 2px;
+ }
+  td.Title_Area_ReloadIcon
+ {
+  text-decoration : none;
+  text-align      : right;
+  vertical-align  : bottom;
+  padding         : 0px;
+  padding-bottom  : 10px;  /*76px + 60px -126px*/
+ }
+
+ span.Text_ReloadIcon
+ {
+  font-size       : 12px;
+  text-decoration : underline;
+  color           : #000080;
+  vertical-align  : top;
+  padding         : 0px;
+  margin          : 0px;
+ }
+
+ #dynamic_link
+ {
+   cursor          : pointer;
+ }
+
+ span.save_as_csv_file
+ {
+  height          : 13px;
+  padding-right   :  4px;
+  width           : 19px;
+ }
+
+ a.Link_ReloadIcon
+ {
+  text-decoration : none;
+  font-weight: bold;
+  padding-bottom  : 0px;
+  color: #00005e;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 13px;
+ }
+ div.Title_Area_Selectbox /* used in "Templates/Vartables.xml"*/
+ {
+  position        : relative;
+  top             : 4px;
+  height          : 20px;
+  padding         : 0px;
+  margin          : 0px;
+  vertical-align  : top;
+  color           : #000000;
+ }
+ 
+ #Title_Area_Selectbox_Alarm
+ {
+  position        : relative;
+  height          : 22px;
+  padding         : 0px;
+  padding-left    : 10px;
+  padding-bottom  : 2px;
+  margin          : 0px;
+  vertical-align  : top;
+ }
+
+ #Alarm_Selectbox
+ {
+  padding         : 0px;
+  margin          : 0px;
+  background-color: #EFEFED;
+ }
+ /*Title Fromatations End*/
+
+ /*Data Area*/
+ /*includes the Secondary navigation Menu and the associated html/mwsl files*/
+  table.Data_Area  /*used in "Templates/Appnavigation.xml"*/
+  {
+   width     :100%;
+   height    :100%;
+   border-spacing: 0px;
+   border-collapse: collapse;
+  }
+
+  /*Secondary Navigation*/
+   table.Second_Nav_Menu
+   {
+    font-weight       : bold;
+    font-size         : 12px;
+    width             : 100%;
+    background-color  : #999999;
+   }
+   td.Second_Nav_Menu_Selected
+   {
+    height            : 23px;
+    border-right      : 2px solid #999999;
+    border-top        : 3px solid #999999;
+    background-color  : #EAEAEA;
+    padding-left      : 5px;
+    padding-right     : 5px;
+    padding-top       : 2px; /*Neccessary for opera and Netscape*/
+    white-space       : nowrap;
+    text-align        : center;
+    color             : #000000;
+   }
+   td.Second_Nav_Menu_NonSelected
+   {
+    height            : 23px;
+    border-right      : 2px solid #999999;
+    border-top        : 3px solid #999999;
+    background-color  : #CCCCCC;
+    color             : #444444;
+    padding-left      : 5px;
+    padding-right     : 5px;
+    padding-top       : 2px; /*Neccessary for opera and Netscape*/
+    white-space       : nowrap;
+    text-align        : center;
+   }
+   
+   a.Second_Nav_Menu_Link
+   {
+    font-family       : Arial, Helvetica, sans-serif;
+    text-decoration   : none;
+   }
+
+  #IFRAME
+  {
+   font-size           : 12px;
+   background-color    : #EAEAEA;
+   width               : 100%;
+   height              : 100%;
+   border              : 0px solid #000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+  }
+
+  /* Fixes the iOS scrolling issue with iframes. A div with this class and the iOSScrollFix.js need to be included in the page. */
+  .iframe_wrapper
+  {
+    height: 100%;
+    width: 100%;
+  }
+  .iOSScrollFix
+  {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+ /*Data Area End*/
+/*Main Menu and Data Area End*/
+
+/***********************************************************************************/
+/* Portal definitions End*/
+/***********************************************************************************/
+
+/***********************************************************************************/
+/* definitions for general page (Templates/General_Table.xml)*/
+/***********************************************************************************/
+td.table_position
+{
+  padding-left: 12px;
+  padding-top : 6px; /* -->*/
+}
+td.static_field
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : right;
+  color               : #666666;
+  width               : 144px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+
+td.static_field_failsafe
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : right;
+  color               : #666666;
+  width               : 144px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+
+td.static_field_dyn
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : left;
+  color               : #666666;
+  padding-left        : 1px;
+  padding-right       : 6px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+td.static_field_small
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : right;
+  color               : #666666;
+  width               : 98px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+td.static_field_long
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : right;
+  color               : #666666;
+  width               : 240px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+td.static_field_long_bold
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : right;
+  color               : #666666;
+  width               : 240px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+td.output_field
+{
+  font-size           : 12px;
+  background-color    : #DDDDDD;
+  text-align          : left;
+  width               : 144px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+
+td.output_field_lock
+{
+  font-size           : 12px;
+  text-align          : left;
+  width               : 144px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+
+td.output_field_long
+{
+  font-size           : 12px;
+  background-color    : #DDDDDD;
+  text-align          : left;
+  width               : 240px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  empty-cells         : show;
+  color               : #000000;
+  word-break          : break-all;
+  white-space         : pre-wrap;
+}
+td.output_field_dyn
+{
+  font-size           : 12px;
+  background-color    : #DFDFDF;
+  text-align          : left;
+  padding-left        : 1px;
+  padding-right       : 6px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+td.static_field_headline
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : right;
+  width               : 144px;
+  padding-top         : 24px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  color               : #666666;
+}
+
+td.static_field_headline_left
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : left;
+  width               : 144px;
+  padding-top         : 24px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  color               : #666666;
+}
+td.static_field_headline_left2
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : left;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  background-color    : #D6D6FF;
+}
+td.static_field_headline_small
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : right;
+  width               : 98px;
+  padding-top         : 24px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  color               : #666666;
+}
+td.output_field_small
+{
+  font-size           : 12px;
+  background-color    : #DDDDDD;
+  text-align          : right;
+  width               : 98px;
+  padding-left        : 6px;
+  padding-right       : 6px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+td.static_field_headline_smaller
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : right;
+  width               : 64px;
+  padding-top         : 24px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+td.output_field_smaller
+{
+  font-size           : 12px;
+  text-align          : right;
+  width               : 64px;
+  padding-left        : 6px;
+  padding-right       : 6px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  background-color    : #DDDDDD;
+}
+td.static_field_headline_long
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : right;
+  width               : 240px;
+  padding-top         : 24px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  color               : #666666;
+}
+td.static_field_headline_dyn
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : left;
+  padding-top         : 24px;
+  padding-left        : 1px;
+  padding-right       : 6px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  color               : #666666;
+}
+
+/***********************************************************************************/
+/* definitions for general page end */
+/***********************************************************************************/
+
+/***********************************************************************************/
+/* definitions for topology display */
+/***********************************************************************************/
+
+.TopoWorkspace
+{
+  background-color  : #FFFFFF;
+  padding-left      : 0px;
+  padding-top       : 0px; /* -->*/
+}
+
+.DivObjTemp
+{
+  padding-left        : 0px;
+  padding-right       : 0px;
+  position            : absolute;
+  font-family         : Arial, Helvetica, sans-serif;
+  line-height         : 13px;
+  font-size           : 12px;
+  font-style          : normal;
+  font-weight         : bold;
+  text-align          : center;
+  color               : #000000;
+  padding             : 0px;
+  border              : 0px solid #000000;
+  margin              : 0px;
+  width               : auto;
+  height              : auto;
+  z-index             : 0;
+  visibility          : hidden;
+  overflow            : hidden;
+  white-space         : nowrap;
+  display             : block;
+  background-color    : transparent;
+}
+
+.DivTopoNodeHeadLabel
+{
+  position            : absolute;
+  font-family         : Arial, Helvetica, sans-serif;
+  line-height         : 1.2em;
+  font-size           : 12px;
+  font-style          : normal;
+  font-weight         : bold;
+  text-align          : center;
+  color               : #000000;
+  padding             : 0px;
+  border              : 0px solid #FFFFFF;
+  margin              : 0px;
+  width               : auto;
+  height              : auto;
+  background-repeat   : no-repeat;
+  z-index             : 12;
+  background-color    : transparent;
+  background-image    : url(../Images/Topo/topo_head_label_background.gif);
+  overflow            : hidden;
+  white-space         : nowrap;
+}
+
+.DivTopoNodeHeadLabelOverview
+{
+  position            : absolute;
+  font-family         : Arial, Helvetica, sans-serif;
+  line-height         : 1.2em;
+  font-size           : 12px;
+  font-style          : normal;
+  font-weight         : bold;
+  text-align          : center;
+  color               : #000000;
+  padding             : 0px;
+  border              : 0px solid #FFFFFF;
+  margin              : 0px;
+  width               : auto;
+  height              : auto;
+  background-repeat   : no-repeat;
+  z-index             : 12;
+  background-color    : transparent;
+  background-image    : url(../Images/Topo/topo_head_label_background_overview.gif);
+  overflow            : hidden;
+  white-space         : nowrap;
+}
+
+.DivTopoNodeHeadLabelDevNotAvailable
+{
+  position            : absolute;
+  font-family         : Arial, Helvetica, sans-serif;
+  line-height         : 1.2em;
+  font-size           : 12px;
+  font-style          : normal;
+  font-weight         : bold;
+  text-align          : center;
+  color               : #000000;
+  padding             : 0px;
+  border              : 0px solid #FFFFFF;
+  margin              : 0px;
+  width               : auto;
+  height              : auto;
+  background-repeat   : no-repeat;
+  z-index             : 12;
+  background-color    : transparent;
+  background-image    : url(../Images/Topo/topo_module_head_dev_not_available.gif);
+  overflow            : hidden;
+  white-space         : nowrap;
+}
+
+.DivTopoNodeHeadLabelDevNotOfProject
+{
+  position            : absolute;
+  font-family         : Arial, Helvetica, sans-serif;
+  line-height         : 1.2em;
+  font-size           : 12px;
+  font-style          : normal;
+  font-weight         : bold;
+  text-align          : center;
+  color               : #000000;
+  padding             : 0px;
+  border              : 0px solid #FFFFFF;
+  margin              : 0px;
+  width               : auto;
+  height              : auto;
+  background-repeat   : no-repeat;
+  z-index             : 12;
+  background-color    : transparent;
+  background-image    : url(../Images/Topo/topo_module_head_dev_not_of_project.gif);
+  overflow            : hidden;
+  white-space         : nowrap;
+}
+
+.DivTopoNodeHeadLabelDevDeactivated
+{
+  position            : absolute;
+  font-family         : Arial, Helvetica, sans-serif;
+  line-height         : 1.2em;
+  font-size           : 12px;
+  font-style          : normal;
+  font-weight         : bold;
+  text-align          : center;
+  color               : #808080;
+  padding             : 0px;
+  border              : 0px solid #FFFFFF;
+  margin              : 0px;
+  width               : auto;
+  height              : auto;
+  background-repeat   : no-repeat;
+  z-index             : 12;
+  background-color    : transparent;
+  background-image    : url(../Images/Topo/topo_module_head_dev_not_of_project.gif);
+  overflow            : hidden;
+  white-space         : nowrap;
+}
+
+.DivTopoNodeHead
+{
+  position            : absolute;
+  z-index             : 10;
+  background-color    : transparent;
+  overflow            : hidden;
+  border              : 0px solid #FFFFFF;
+}
+
+.DivTopoNodeHeadBorder
+{
+  position            : absolute;
+  z-index             : 13;
+  border              : 1px solid #FF0000;
+  background-color    : transparent;
+  overflow            : hidden;
+}
+
+
+.DivTopoNodeBodyBackground
+{
+  position            : absolute;
+  z-index             : 9;
+  background-color    : #CACCD9;
+  overflow            : hidden;
+}
+
+.DivTopoNodeBodyForeground
+{
+  position            : absolute;
+  z-index             : 10;
+  background-color    : #A3A8C1;
+  overflow            : hidden;
+}
+
+.DivTopoNodeCon
+{
+  position            : absolute;
+  z-index             : 11;
+  background-color    : transparent;
+  overflow            : hidden;
+}
+
+.DivTopoWire
+{
+  position            : absolute;
+  z-index             : 10;
+  overflow            : hidden;
+}
+
+.DivTopoConnector
+{
+  position            : absolute;
+  z-index             : 10;
+  background-color    : transparent;
+  overflow            : hidden;
+}
+
+.DivTopoConnectorLabel
+{
+  position            : absolute;
+  font                : 10px Arial, Helvetica, sans-serif;
+  font-style          : normal;
+  font-weight         : normal;
+  text-align          : center;
+  color               : #000000;
+  z-index             : 11;
+  background-color    : transparent;
+  background-image    : url(../Images/Topo/topo_connector.gif);
+  overflow            : hidden;
+}
+
+.DivTopoNodeConLabel
+{
+  position            : absolute;
+  font                : 10px Arial, Helvetica, sans-serif;
+  font-style          : normal;
+  font-weight         : normal;
+  color               : #000000;
+  padding             : 0px;
+  border              : 0px solid #000000;
+  margin              : 0px;
+  height              : auto;
+  background-repeat   : no-repeat;
+  z-index             : 12;
+  background-color    : transparent;
+  background-image    : url(../Images/Topo/topo_port_label_background.gif);
+  overflow            : hidden;
+}
+
+.TopoToolTipTable
+{
+  font-family         : Arial, Helvetica, sans-serif;
+  font-size           : 11px;
+  font-weight         : bold;
+  white-space         : nowrap;
+  table-layout        : auto;
+  border              : 0px solid #00FF00;
+  width               : auto;
+  height              : auto;
+}
+
+
+.AnchorObjTemp
+{
+  color               : #000000;
+  text-decoration     : none;
+  display             : block;
+  width               : auto;
+  height              : auto;
+  border              : 0px solid #000000;
+  visibility          : visible;
+}
+
+.AnchorObjTable
+{
+  display             : block;
+  width               : auto;
+  height              : auto;
+  border              : 0px solid #000000;
+  visibility          : visible;
+}
+
+.DivTopoToolTip
+{
+  text-align          : left;
+  text-decoration     : none;
+  padding-left        : 2px;
+  padding-right       : 2px;
+  font-family         : Arial, Helvetica, sans-serif;
+  font-size           : 11px;
+  font-weight         : bold;
+  border              : 1px solid #000000;
+  width               : auto;
+  height              : auto;
+  z-index             : 25;
+  visibility          : hidden;
+  overflow            : visible;
+  white-space         : nowrap;
+  display             : block;
+  position            : absolute;
+  background-color    : transparent;
+  background-image    : url(../Images/Topo/topo_port_tooltip_background.gif);
+}
+
+table.ContentTableDbgTopo
+{
+  width             : 100%;
+  height            : 100%;
+  font-size         : 12px;
+  background-color  : #EAEAEA;
+  border            : 0px solid #FFFFFF;
+  border-collapse   : collapse;
+}
+
+td.ContentTableFieldDbgTopo
+{
+  height            : 17px;
+  text-align        : left;
+  border            : 1px solid #FFFFFF;
+  padding-left      : 2px;
+  padding-right     : 20px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+}
+
+td.ContentTableField_1DbgTopo
+{
+  background-color    : #D6D6FF;
+  height              : 17px;
+  text-align          : left;
+  border              : 1px solid #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  padding-left        : 2px;
+  padding-right       : 20px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+}
+
+/***********************************************************************************/
+/* definitions for topology display end*/
+/***********************************************************************************/
+
+/***********************************************************************************/
+/* definitions for vartable */
+/***********************************************************************************/
+input.Vartable_Go_Button
+{
+  font-family       : Arial, Helvetica, sans-serif;
+  font-size         : 12px;
+  color             : #000000;
+  background-color  : #BFBFBF;
+  border            : 1px solid #666666; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+  text-decoration   : underline;
+}
+input.Var_Go_Button
+{
+  font-family       : Arial, Helvetica, sans-serif;
+  font-size         : 12px;
+  color             : #000000;
+  background-color  : #BFBFBF;
+  border            : 1px solid #666666; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+  text-decoration   : underline;
+}
+input.varstate_address_field
+{
+  color             : #000000;
+  width             : 100%;
+  background-color  : #FFFFFF;
+  font-size         : 12px;
+  border            : 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+}
+input.varstate_address_field_valid
+{
+  color             : #000000;
+  /*background-color  : #EAEAEA;*/
+  /*border            : 0px solid #000000;*/ /*neccesary for Opera; otherwise there will be frames around the buttons*/
+}
+input.varstate_address_field_invalid
+{
+  color             : #FF0000;
+  /*background-color  : #EAEAEA;*/
+  /*border            : 0px solid #000000;*/ /*neccesary for Opera; otherwise there will be frames around the buttons*/
+}
+input.varstate_submit_field
+{
+  color             : #000000;
+  background-color  : #BFBFBF;
+  font-size         : 12px;
+  border            : 1px solid #666666;
+}
+input.varstate_address_field_valid, input.varstate_address_field_invalid
+{
+  width             : 100%;
+  font-size         : 12px;
+  box-sizing        : border-box;
+  outline           : none;
+}
+input.varstate_submit_gab
+{
+  padding-left      : 2px; /* ttd test if right */
+}
+
+table.Vartable   /*used in Templates/Vartable.xml*/
+{
+  font-size         : 12px;
+  width             : 100%;
+  height            : 100%;
+  background-color  : #EAEAEA;
+  border            : 0px;
+  border-collapse   : collapse;
+}
+td.table_description_line
+{
+  padding-left      : 2px;
+  width             : 100%;
+  height            : 21px;
+}
+td.vartable_header_field
+{
+  background-color  : #BFBFBF;
+  height            : 17px;
+  text-align        : left;
+  /*width             : 154px;*/
+  border            : 1px solid #FFFFFF;
+  padding-left      : 2px;
+  padding-right     : 2px;
+  white-space       : nowrap;
+  /*padding-right     : 20px;*/
+}
+td.vartable_static_field
+{
+  background-color  : #EAEAEA;
+  height            : 17px;
+  text-align        : left;
+  /*width             : 154px;*/
+  border            : 1px solid #FFFFFF;
+  padding-left      : 2px;
+  padding-right     : 2px;
+  /*padding-right     : 20px;*/
+}
+td div.vartable_static_field_delete_ico
+{
+  background        : transparent url(../Images/ICO_WEB_trash.gif) no-repeat center center;
+  height            : 18px;
+  width             : 20px;
+  cursor            : pointer;
+}
+select.Variable_Type_Selection_Box
+{
+  width             : 170px;
+  background-color  : #FFFFFF;
+}
+/***********************************************************************************/
+/* definitions for vartable end*/
+/***********************************************************************************/
+
+/***********************************************************************************/
+/* definitions for messages and diagnostic buffer*/
+/***********************************************************************************/
+body.IFrame
+{
+  background-color    : #EAEAEA;
+  height:100%;
+ /* overflow:auto; */  /* css 2.0 */
+  /*overflow-y:scroll;*/ /*css 3.0 */
+}
+table.ContentPage
+{
+  width             : 100%;
+  height            : 100%;
+  background-color  : #EAEAEA;
+  border            : 0px;
+  border-collapse   : collapse;
+}
+td.ContentDetailLine
+{
+  height            : 18px;
+  font-weight       : bold;
+  font-size         : 12px;
+  padding-left      : 12px;
+  border            : 0px solid #FFFFFF;
+  width             : 341px;  /*6px + 154px + 6px + 169px + 6px*/
+  vertical-align    : bottom;
+  background-color  : #999999;
+  color             : #000000;
+}
+td.ContentDetailLineEvent
+{
+  height            : 18px;
+  font-weight       : bold;
+  font-size         : 12px;
+  padding-left      : 6px;
+  border            : 0px solid #FFFFFF;
+/*  width             : 341px;*/  /*6px + 154px + 6px + 169px + 6px*/
+  vertical-align    : bottom;
+  text-align        : right;
+  background-color  : #999999;
+  color             : #000000;
+}
+table.IframeTable
+{
+  width             : 100%;
+  height            : 100%;
+}
+
+table.ContentTable
+{
+  width             : 100%;
+  height            : 17px; /* 100%;*/
+  font-size         : 12px;
+  background-color  : #EAEAEA;
+  border            : 0px;
+  border-collapse   : collapse;
+  white-space       : pre-wrap;
+}
+
+table.ContentTableConnections
+{
+  width             : 100%;
+  height            : 17px; /* 100%;*/
+  font-size         : 12px;
+  background-color  : #EAEAEA;
+  border-top        : 1px solid #FFFFFF;
+  border-collapse   : collapse;
+}
+
+td.ContentTableField_1
+{
+  background-color    : #BFBFBF;
+  height              : 17px;
+  text-align          : left;
+  border              : 1px solid #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  border-top-width    : 0px;
+  padding-left        : 2px;
+  padding-right       : 20px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+}
+td.ContentTableField a
+{
+    color: #000;
+    text-decoration: none;
+}
+td.ContentTableField, tr.ContentTableField, td.ContentTableField_Address, td.ContentTableField_Comment, td.ContentTableField_Filesize
+{
+  height            : 17px;
+  text-align        : left;
+  border            : 1px solid #FFFFFF;
+  padding-left      : 2px;
+  padding-right     : 20px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+}
+
+td.ContentTableField_1_IP_Header, td.ContentTableField_1_IP_Header_sort
+{
+  background-color    : #BFBFBF;
+  height              : 17px;
+  text-align          : left;
+  border-width        : 1px 0px 1px 1px;
+  border-style        : solid;
+  border-color        : #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  padding-left        : 2px;
+  padding-right       : 20px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+}
+
+td.ContentTableField_IP
+{
+  height            : 17px;
+  text-align        : left;
+  border-width      : 1px 0px;
+  border-style      : solid;
+  border-color      : #FFFFFF;
+  padding-right     : 0px;
+  padding-left      : 2px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+  width             : 30px;
+}
+
+td.ContentTableField_State
+{
+  height            : 17px;
+  width             : 70px;
+  text-align        : left;
+  border            : 1px solid #FFFFFF;
+  padding-left      : 2px;
+  padding-right     : 20px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+}
+table.ContentTextTable
+{
+  width             : 100%;
+  height            : 100%;
+  font-weight       : bold;
+  font-size         : 12px;
+  text-align        : left;
+  border            : 0px solid #FFFFFF;
+}
+body.ContentLongBody
+{
+  background-color  : #DDDDDD;
+}
+
+table.ContentLongText
+{
+  font-size         : 12px;
+  border            : 0px solid #FFFFFF;
+  padding-left      : 12px;
+}
+td.ContentLongText
+{
+  padding-left      : 12px;    /* adpfch4*/
+  background-color  : #DDDDDD; /* adpfch4*/
+  font-weight       : normal;  /* adpfch4*/
+  /*padding-top       : 10px;  adpfch4*/
+  vertical-align    : top;
+}
+td.ContentLongElement
+{
+  padding-top       : 2px;
+  vertical-align    : top;
+}
+.row_selected
+{
+  background-color  : #C1CEE9;
+}
+.row_nonselected
+{
+  background-color  : #CCCCCC;
+}
+.left_beside_hidden_field
+{
+  text-align        : left;
+  border-width      : 1px 0px;
+  border-style      : solid;
+  border-color      : #FFFFFF;
+  height            : 17px;
+  padding-right     : 30px;
+  padding-left      : 2px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+  width             : 50px;
+}
+
+#UpdateDiagDiv
+{
+  width             : 100%;
+  height            : 100%;
+  font-size         : 12px;
+  border            : 0px;
+}
+
+#UpdateAlarmDiv
+{
+  width             : 100%;
+  height            : 100%;
+  font-size         : 12px;
+  background-color  : #EAEAEA;
+  border            : 0px;
+}
+
+.downloadIcon{
+  width             : 14px;
+  height            : 14px;
+  border            : 0px;
+}
+
+/***********************************************************************************/
+/* definitions for messages and diagnostic buffer end*/
+/***********************************************************************************/
+
+
+.sortheader {
+    border-top-width: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-left-width: 0px;
+    font-size: 12px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    color: #000000;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right-width: 0px;
+    text-decoration: none;
+    width:  50px;
+}
+
+td.ContentTableField_1_sort
+{
+  background-color    : #BFBFBF;
+  height              : 17px;
+  text-align          : left;
+  border              : 1px solid #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  padding-left        : 2px;
+  padding-right       : 20px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+  cursor              : pointer;
+
+}
+
+.sortheadercl {
+    border-right: #ffffff 1px solid;
+    padding-right: 20px;
+    border-top: #ffffff 1px solid;
+    padding-left: 2px;
+    border-left: #ffffff 1px solid;
+    cursor: pointer;
+    border-bottom: #ffffff 1px solid
+}
+.filtertext {
+    font-weight: bold;
+    padding-bottom  : 0px;
+    font-size: 12px;
+    color: #00005e;
+    font-family: Arial, Helvetica, sans-serif
+}
+.filtertextempty {
+    font-size: 14px;
+    height  : 100%;
+    color: #00005e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.filterformclass {
+    border-top-width: 0px;
+    padding-right: 18px;
+    padding-left: 0px;
+    font-weight: normal;
+    border-left-width: 0px;
+    font-size: 12px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    margin: 0px; color: #000040;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    border-right-width: 0px;
+    text-decoration: none;
+}
+
+#filtersend
+{
+  cursor            : pointer;
+}
+
+.filterlistclass
+{
+    border-top-width: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-weight: normal;
+    border-left-width: 0px;
+    font-size: 12px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    width: 170px;
+    color: #000040;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border-right-width: 0px
+}
+.filtervalueclass {
+    border-top-width: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-weight: normal;
+    border-left-width: 0px;
+    font-size: 12px;
+    border-bottom-width: 0px;
+    padding-bottom: 2px;
+    margin: 0px; width: 90px;
+    color: #000040;
+    padding-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border-right-width: 0px;
+    text-decoration: none
+}
+.filterbuttonclass {
+    border-top-width: 0px;
+    padding-right: 33px;    /* 0 -> 33 */
+    padding-left: 0px;
+    font-weight: normal;
+    border-left-width: 0px;
+    font-size: 12px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    width: 44px;
+    color: #000080;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CCCCCC;
+    text-align: right;
+    border-right-width: 0px;
+    text-decoration: underline
+}
+
+/***********************************************************************************/
+/* definitions for intro */
+/***********************************************************************************/
+#intoLinks
+{
+    position: relative;
+    float: right;
+    padding-top: 20px;
+}
+
+#intoLinks a
+{
+    padding: 20px;
+}
+
+#introArea
+{
+    position: absolute;
+    left: 0px;
+    top: 77px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    background-color: #3c4562;
+    /*background: url('../cpu/intro/CPU1516.jpg'), linear-gradient(to right, #3c4562 0%, #525e84 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;*/
+    overflow: hidden;
+    min-width: 950px;
+    min-height: 120px;
+}
+
+#position_intro_enter
+{
+    left:30px;
+    top:30px;
+    position:absolute;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#position_intro_no_intro
+{
+    left:30px;
+    bottom:30px;
+    position:absolute;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input.intro_enter
+{
+    font-family       : Arial, Helvetica, sans-serif;
+    font-size         : 18px;
+    color             : #ffffff;
+    background-color  : transparent;
+    cursor            : pointer;
+    border            : 0px solid #000000; /*neccesary for Opera; otherwise there will be frames around the buttons*/
+    text-decoration   : underline;
+    padding           : 0px;
+}
+
+input.no_intro_checkbox
+{
+    font-family       : Arial, Helvetica, sans-serif;
+    font-size         : 12px;
+    color             : #ffffff;
+    /*background-color  : #ffffff;*/
+    /*border            : 0px solid #ffffff; *//*neccesary for Opera; otherwise there will be frames around the buttons*/
+}
+.enterformclass
+{
+    border-top-width: 0px;
+    padding: 0px;
+    font-weight: normal;
+    border: 0px;
+    font-size: 12px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    text-decoration: none;
+    width:100%;
+    height:100%;
+}
+
+.Header_Link
+{
+    font-family       : Arial, Helvetica, sans-serif;
+    font-size         : 12px;
+    color             : #000000;
+    text-decoration   : underline;
+    text-align        : right;
+}
+
+.Header_Link_Inactive
+{
+    font-family       : Arial, Helvetica, sans-serif;
+    font-size         : 12px;
+    color             : darkgrey;
+    text-decoration   : underline;
+    text-align        : right;
+    padding-bottom	  : 20px;
+    padding-left	  : 20px;
+    padding-right	  : 20px;
+    padding-top       : 20px;
+}
+
+.Header_Link_Element
+{
+    padding           : 18px;
+    text-align        : right;
+}
+
+.intro_image
+{
+    height : 100%;
+}
+
+.intro_enter_basic { display : none; }
+/***********************************************************************************/
+/* definitions for bgz */
+/***********************************************************************************/
+#BGZ_Table
+{
+ width  : 100%;
+ height : 60%;
+}
+
+#BGZ_SecNav
+{
+ width  : 100%;
+ height : 40%;
+}
+
+.BGZ_Link
+{
+ color          : #000080;
+ font-size      : 12px;
+ cursor         : pointer;
+ text-decoration: underline;
+}
+
+td.Title_Area_Bgz_Nav
+ {
+  padding         : 0px;
+  padding-left    : 11px; /*129px - 118 px*/
+  padding-top     : 7px;  /*83px - 76px*/
+  vertical-align  : top;
+  color           : #00005E;
+  font-size       : 12px;
+  font-weight     : bold;
+  font-variant    : normal;
+ }
+
+#Bgz_Navlink
+ {
+  padding         : 0px;
+  padding-bottom  : 10px;
+  padding-top     : 5px;
+  vertical-align  : top;
+  color           : #00005E;
+  font-size       : 12px;
+  font-weight     : bold;
+  font-variant    : normal;
+}
+
+.Bgz_SecNav_Content
+{
+  background-color: #EAEAEA;
+  background-image: none;
+  width           : 100%;
+  height          : 100%;
+}
+
+.Bgz_SecNav_Table
+{
+  font-size      : 12px;
+  padding-left   : 2px;
+  width          : 500px;
+  padding-top    : 5px;
+}
+
+td.static_field_bgz
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : right;
+  color               : #666666;
+  width               : 114px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  white-space         : nowrap;
+}
+
+td.static_field_bgz_safety
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : right;
+  color               : #666666;
+  width               : 200px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  white-space         : nowrap;
+}
+
+th.static_field_bgz
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : right;
+  color               : #666666;
+  width               : 114px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  font-weight         : bold;
+  white-space         : nowrap;
+}
+
+th.ContentTableField_1, th.ContentTableField_1_sort, th.ContentTableField_IP_Header_sort
+{
+  background-color    : #BFBFBF;
+  height              : 17px;
+  text-align          : left;
+  border              : 1px solid #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  border-top-width    : 0px;
+  padding-left        : 2px;
+  padding-right       : 20px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+}
+
+div.Title_Area_NavLink /*used in Template BgzTableTempl.tmpl*/
+{
+  float : left;
+  width : 85%;
+}
+
+div.Title_Area_Search /*used in Template BgzTableTempl.tmpl*/
+{
+  width     : 15%;
+  display   : flex;
+  float     : right;
+}
+
+input.Bgz_SearchBox
+{
+  float     : left;
+  margin    : 5px
+}
+
+input.Bgz_SearchButton
+{
+  float         : right;
+  margin        : 3px;
+  padding-top   : 4px
+}
+
+#Bgz_state
+{
+  padding-left    : 10px;
+  padding-top     : 20px;
+}
+
+.BGZ_Details_Left
+{
+  text-align        : left;
+  border-width      : 1px 0px;
+  border-style      : solid;
+  border-color      : #FFFFFF;
+  height            : 17px;
+  padding-right     : 30px;
+  padding-left      : 2px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+  width             : 50px;
+}
+
+.BGZ_Details_Left_Header
+{
+  text-align        : left;
+  border-width      : 1px 0px;
+  border-style      : solid;
+  border-color      : #FFFFFF;
+  height            : 17px;
+  padding-right     : 30px;
+  padding-left      : 2px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+  width             : 50px;
+  background-color  : #BFBFBF;
+}
+
+
+.BGZ_Details_Left_Header_sort
+{
+  text-align        : left;
+  border-width      : 1px 0px;
+  border-style      : solid;
+  border-color      : #FFFFFF;
+  height            : 17px;
+  padding-right     : 30px;
+  padding-left      : 2px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+  width             : 50px;
+  background-color  : #BFBFBF;
+}
+
+.BGZ_No_Sort_Header
+{
+  text-align        : right;
+  border-width      : 1px 0px;
+  border-style      : solid;
+  border-color      : #FFFFFF;
+  height            : 17px;
+  padding-right     : 6px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+  background-color  : #BFBFBF;
+}
+
+body.bgztablebody, body.ouctablebody
+{
+  background-color  : #EAEAEA;
+  height: 100%;
+}
+
+
+.BGZ_Details
+{
+  text-align        : right;
+  border-width      : 1px 0px;
+  border-style      : solid;
+  border-color      : #FFFFFF;
+  height            : 17px;
+  padding-right     : 6px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+}
+
+td.Title_Area_PrinterIcon_Bgz
+ {
+  text-align      : right;
+  vertical-align  : bottom;
+  padding         : 0px;
+  padding-right   : 33px;
+  width           : 20px;
+}
+td.Title_Area_ReloadIcon_Bgz
+{
+  text-align      : right;
+  vertical-align  : bottom;
+  padding         : 0px;
+}
+
+td.Data_Area_Information_Text
+{
+  text-align    : left;
+  font-size     : 10px;
+  padding-left  : 10px;
+}
+
+img.Title_Area_WarningIcon_Bgz
+{
+  color             : #00005E;
+  font-size         : 12px;
+  font-weight       : bold;
+  font-variant      : normal;
+  width             : 13px;
+  height            : 13px;
+  vertical-align    : top;
+  padding-top       : 0px;
+  vertical-align    : top;
+}
+
+span.Title_Area_WarningText_Bgz
+ {
+  padding         : 0px;
+  vertical-align  : top;
+  color           : #00005E;
+  font-size       : 12px;
+  font-weight     : bold;
+  font-variant    : normal;
+ }
+
+.invisible, .invisible_sort
+{
+  display           : none;
+}
+
+.error
+{
+   font-size: 12px;
+   padding: 10px;
+   height: 17px;
+}
+
+/***********************************************************************************/
+/* definitions for profinet parameter                                              */
+/***********************************************************************************/
+td.static_field_headline_pn
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  width               : 100px;
+  text-align          : right;
+  padding-top         : 24px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  white-space         : nowrap;
+  color               : #666666;
+}
+
+td.static_field_headline_pn_res
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  width               : 150px;
+  text-align          : right;
+  padding-top         : 24px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  white-space         : nowrap;
+  color               : #666666;
+}
+
+td.static_field_pn
+{
+  font-size           : 12px;
+  text-align          : right;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  width               : 200px;
+  color               : #666666;
+}
+
+#Title_Area_ReloadIcon_Topo
+{
+  text-decoration : none;
+  text-align      : right;
+  vertical-align  : bottom;
+  padding         : 0px;
+  padding-bottom  : 10px;  /*76px + 60px -126px*/
+  width           : 80px;
+}
+
+#topo_selection_frame_body,topo_selection_frame_body
+{
+  background-color : #CCCCCC;
+}
+
+#topo_selection
+{
+  position        : absolute;
+  top             : 0px;
+  right           : 0px;
+  padding         : 0px;
+  margin          : 5px;
+  width           : 250px;
+  height          : 56px;
+  background-color : #CCCCCC;
+}
+
+#topo_selection_iframe
+{
+  height          : 56px;
+  width           : 250px;
+  border          : 0px solid #000;
+}
+
+#topo_fieldset_id
+{
+  margin           : 0px;
+  padding          : 2px;
+  padding-left     : 5px;
+}
+
+#topo_selection_table
+{
+  font-size       : 12px;
+  text-align      : left;
+  padding         : 0px;
+  margin          : 0px;
+  margin-top      : 6px;
+  background-color : #CCCCCC;
+}
+
+.topo_selection_form_td
+{
+  padding          : 0px;
+}
+
+#topo_selection_status_td
+{
+  padding          : 0px;
+  vertical-align   : top;
+  margin           : 0px;
+}
+
+#topo_selection_form
+{
+  margin           : 0px;
+}
+
+#topo_save_button
+{
+  padding          : 0px;
+  margin           : 0px;
+  text-align       : center;
+}
+
+.topo_save_button_frame
+{
+  border          : 2px inset white;
+}
+
+.topo_save_button_no_frame
+{
+  border          : 2px solid #C0C0DB;
+}
+
+#topo_save_img
+{
+  border-width     : 0px;
+  height           : 13px;
+  margin           : 1px;
+  margin-top       : 3px;
+
+}
+
+.cursor_hand
+{
+  cursor           : pointer;
+}
+
+
+/***********************************************************************************/
+/* definitions for awp                                                             */
+/***********************************************************************************/
+td.static_field_awp
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : left;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+}
+
+/*********************************************************************************/
+/* Offene Kommunikation, Details                                                 */
+/*********************************************************************************/
+
+td.OComContentStaticLongText
+{
+  font-size         : 12px;
+  text-align        : right;
+  padding-right     : 6px;
+  padding-left      : 48px;
+  color             : #666666;
+}
+
+td.OComContentStaticLongHeader
+{
+  font-size         : 12px;
+  font-weight       : bold;
+  text-align        : right;
+  padding-right     : 6px;
+  padding-left      : 48px;
+  color             : #666666;
+}
+
+td.OComContentVariableLongText
+{
+  background-color  : #DDDDDD;
+  font-size         : 12px;
+  text-align        : left;
+  padding-left      : 6px;
+}
+
+/*********************************************************************************/
+/* Offene Kommunikation, Details                                                 */
+/*********************************************************************************/
+.filebrowser
+{
+  font-size        : 12px;
+  text-align       : left;
+}
+
+#FilebrowserTable td.nothing {
+  text-align: center;
+}
+
+#UserFilesTable th, #UserFilesTable td {
+  white-space: nowrap !important;
+}
+
+.filebrowserHeadline
+{
+    padding        : 0px;
+    color          : #666666;
+    font-weight    : bold;
+    text-align     : left;
+    font-size        : 12px;
+}
+
+#FilebrowserTable table.ContentTable
+{
+  white-space: normal;
+}
+
+#FilebrowserTable table.ContentTable td.ContentTableField,
+#FilebrowserTable table.ContentTable tr.ContentTableField,
+#FilebrowserTable table.ContentTable td.ContentTableField_Address,
+#FilebrowserTable table.ContentTable td.ContentTableField_Comment,
+#FilebrowserTable table.ContentTable td.ContentTableField_Filesize
+{
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.renameForm
+{
+    margin         : 0px;
+    padding        : 0px;
+}
+
+
+.Filebrowser_No_Sort_Header
+{
+  background-color    : #BFBFBF;
+  height              : 17px;
+  text-align          : left;
+  border              : 1px solid #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  padding-left        : 2px;
+  padding-right       : 20px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+}
+
+.Filebrowser_Dir_No_Sort_Header
+{
+  background-color    : #BFBFBF;
+  height              : 17px;
+  text-align          : right;
+  border              : 1px solid #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  border-right-width : 0px;
+  padding-left        : 2px;
+  padding-right       : 2px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+}
+
+.Filebrowser_Name_Header
+{
+  background-color    : #BFBFBF;
+  height              : 17px;
+  text-align          : left;
+  border              : 1px solid #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  border-left-width   : 0px;
+  border-right-width  : 0px;
+  padding-left        : 2px;
+  padding-right       : 2px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+}
+
+td.Filebrowser_Dir_Header_sort
+{
+  background-color    : #BFBFBF;
+  height              : 17px;
+  text-align          : right;
+  border              : 1px solid #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  border-right-width : 0px;
+  padding-left        : 2px;
+  padding-right       : 2px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+  cursor              : pointer;
+}
+
+td.Filebrowser_Name_Header_sort
+{
+  background-color    : #BFBFBF;
+  height              : 17px;
+  text-align          : left;
+  border              : 1px solid #FFFFFF;
+  border-collapse     : collapse;
+  border-bottom-width : 0px;
+  border-left-width   : 0px;
+  padding-left        : 2px;
+  padding-right       : 20px;
+  padding-top         : 0px;
+  padding-bottom      : 0px;
+  cursor             : pointer;
+}
+
+.Filebrowser_Dir_Col
+{
+  height            : 17px;
+  text-align        : right;
+  border            : 1px solid #FFFFFF;
+  border-right-width : 0px;
+  padding-left      : 2px;
+  padding-right     : 2px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+}
+
+.Filebrowser_Name_Col
+{
+  height            : 17px;
+  text-align        : left;
+  border            : 1px solid #FFFFFF;
+  border-left-width : 0px;
+  padding-left      : 2px;
+  padding-right     : 20px;
+  padding-top       : 0px;
+  padding-bottom    : 0px;
+}
+
+.Error_Message
+{
+  width             : 100%;
+  text-align        : left;
+  color             : red;
+  font-size         : 12px;
+  font-weight       : normal;
+}
+
+.startpage_buttons
+{
+  text-decoration   : none;
+  display           : block;
+  width             : 130px;
+  height            : 18px;
+  margin-left       : 6px;
+  margin-bottom     : 2px;
+  margin-top        : 2px;
+  font-size         : 12px;
+  font-weight       : normal;
+  text-align        : center;
+  color             : #FFFFFF;
+  background-color  : #999999;
+  cursor            : pointer;
+  outline           : 0;
+  border            : 0;
+}
+
+#table_safety
+{
+  padding           : 0px;
+  margin            : 0px;
+  border            : 0px;
+}
+
+.fw_update_button
+{
+  font-size           : 12px;
+  text-align          : left;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  color               : #000000;
+}
+
+
+#fw_update_input_field
+{
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+td.fw_update_output_field_long
+{
+  font-size           : 12px;
+  background-color    : #DDDDDD;
+  text-align          : left;
+  width               : 250px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  empty-cells         : show;
+  color               : #000000;
+}
+
+td.fw_update_static_field_bgz
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : right;
+  color               : #666666;
+  width               : 140px;
+  border-left         : 6px solid #EAEAEA;
+  border-top          : 4px solid #EAEAEA;
+  white-space         : nowrap;
+}
+
+.Bgz_FW_Update_SecNav_Table
+{
+  font-size      : 12px;
+  padding-left   : 2px;
+}
+
+.Bgz_FW_Update_Type_Class
+{
+  font-size           : 12px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : left;
+  padding-left        : 10px;
+  padding-top         : 10px;
+  color               : #000000;
+  white-space         : nowrap;
+}
+
+#fwupdateframe
+{
+    position : absolute;
+    top      : 0px;
+    left     : -2000px;
+    width    : 0px;
+    height   : 0px;
+/*  left     : 500px;
+    width    : 300px;
+    height   : 50px;*/
+}
+
+
+.nobr
+{
+    white-space       : nowrap;
+}
+
+/*  BACKUP AND RESTORE */
+
+#BR_Content
+{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#BR_Data_Area
+{
+    width    : 100%;
+    height   : 100%;
+}
+
+
+#BR_Title_Area
+{
+  height           : 60px;
+  width            : 100%;
+  background-color : #CCCCCC;
+  border           : 0px;
+  border-bottom    : 1px solid #FFFFFF;
+  vertical-align   : top;
+  padding          : 0px;
+  margin           : 0px;
+  border-collapse  : collapse;
+  border-spacing   : 0px;
+}
+
+#BR_Title_Area_Name
+{
+    position : absolute;
+    color: #666666;
+    font-size: 16px;
+    font-variant: normal;
+    font-weight: bold;
+    padding: 7px 0 0 11px;
+    vertical-align: top;
+}
+
+
+.BR_Subtitle
+{
+    color       : #666666;
+    font-size   : 14px;
+    font-weight : bold;
+    padding-bottom: 10px;
+}
+
+
+
+#Restore_Response_Area, #Restore_State_Area, #Restore_Login_Area
+{
+    display: none;
+}
+
+
+.BR_Status_Area
+{
+    padding-top: 10px;
+}
+
+.BR_static_field
+{
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : left;
+  color               : #666666;
+  white-space         : nowrap;
+}
+
+.BR_output_field_long
+{
+  font-size           : 12px;
+  text-align          : left;
+  width               : 250px;
+  color               : #000000;
+  margin-left         : 5px;
+}
+
+
+
+#Backup_Error_Message
+{
+  text-align        : left;
+  color             : red;
+  font-size         : 12px;
+  font-weight       : normal;
+}
+
+#Backup_Area
+{
+  /*position: absolute;*/
+  /*top:90px;*/
+  /*left:100px;*/
+  padding-bottom : 80px;
+}
+
+#Restore_Area
+{
+  /*position: absolute;*/
+  /*top:240px;*/
+  /*left:100px;*/
+  /*padding-bottom : 30px;*/
+}
+
+.BR_show
+{
+    display: block;
+}
+
+.log_dialog_show
+{
+  position : absolute;
+  display: block;
+  left:20px;
+  z-index: 99;
+}
+
+.dialog_hidden
+{
+  display : none;
+}
+
+
+#debug_output
+{
+ position : absolute;
+ top      : 440px;
+ left     : 120px;
+ display : none;
+}
+
+.BR_Error_Message
+{
+  width             : 700px;
+  text-align        : left;
+  color             : red;
+  font-size         : 12px;
+  font-weight       : normal;
+  padding-left      : 150px;
+}
+
+
+.BR_Success_Message
+{
+  width             : 600px;
+  text-align        : left;
+  color             : green;
+  font-size         : 12px;
+  font-weight       : normal;
+  padding-left      : 150px;
+}
+
+
+
+#restore_load_button, #backup_button
+{
+ margin-top: 3px;
+ width: 200px;
+ height: 23px;
+ text-align: center;
+}
+
+
+.restore_state_line_check
+{
+  background-image: url("../Images/checkmark.gif");
+  background-repeat: no-repeat;
+  font-size           : 12px;
+  height              : 21px;
+  text-align          : left;
+  color               : #666666;
+  white-space         : nowrap;
+  padding-left        : 25px;
+}
+
+.restore_state_line_in_progress
+{
+  background-image: url("../Images/inprogress.gif");
+  background-repeat: no-repeat;
+  font-size           : 14px;
+  font-weight         : bold;
+  height              : 21px;
+  text-align          : left;
+  color               : #666666;
+  white-space         : nowrap;
+  padding-left        : 25px;
+}
+
+.mainMenuIntro
+{
+    padding-top: 29px;
+}
+
+table.s7webtable
+{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+#TopoTable
+{
+    width: 100%;
+    height: 100%;
+    border-spacing: 0px;
+}
+
+#TopoTable td
+{
+    border: 1px solid #ffffff;
+}
+
+#XMLData
+{
+    display:none;
+}
+
+#popup-root
+{
+    background-color:transparent;
+    background-color:rgba(0,0,0,0.8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);
+    zoom:1;
+    position:fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    bottom:0px;
+    z-index:10000;
+    min-height:400px;
+}
+
+#popup-root .window
+{
+    width:300px;
+    background-color:#EAEAEA;
+    margin:50px auto;
+    border:1px solid white;
+}
+
+#popup-root .window table
+{
+    width: 100%;
+    table-layout: fixed;
+}
+
+#popup-root .window .header
+{
+    background-color:#666;
+    color:#EFEFEF;
+    font-size:16px;
+    font-weight:bold;
+    line-height:20px;
+    padding:5px;
+    border-bottom:1px solid white;
+}
+
+#popup-root .window .icon
+{
+    width:48px;
+    height:48px;
+    padding:5px;
+    background:url("../Images/warning.png") no-repeat center center;
+}
+
+#popup-root .window .content
+{
+    min-height:50px;
+    padding:5px;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+#popup-root .window .buttons
+{
+    padding:5px;
+    text-align:right;
+}
+
+#popup-root .window .buttons button
+{
+    text-decoration:none;
+    line-height:14px;
+    margin:2px 6px;
+    font-size:12px;
+    font-weight:normal;
+    text-align:center;
+    color:#FFF;
+    background-color:#999;
+    cursor:pointer;
+    border:1px solid #777;
+    padding:3px 15px;
+}
+
+#popup-root .window .buttons button:focus
+{
+    border: 1px dashed black;
+}

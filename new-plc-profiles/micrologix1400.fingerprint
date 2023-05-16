@@ -1,0 +1,48 @@
+# Nmap 7.60 scan initiated Fri Jul 29 11:45:03 2022 as: nmap -vvv -O -p 1-10000,45000-55000 -oN micrologix1400.fingerprint -e enp0s8 192.168.103.15
+Increasing send delay for 192.168.103.15 from 0 to 5 due to 11 out of 34 dropped probes since last increase.
+Increasing send delay for 192.168.103.15 from 5 to 10 due to 11 out of 34 dropped probes since last increase.
+Increasing send delay for 192.168.103.15 from 10 to 20 due to 11 out of 29 dropped probes since last increase.
+Increasing send delay for 192.168.103.15 from 20 to 40 due to 11 out of 31 dropped probes since last increase.
+Increasing send delay for 192.168.103.15 from 40 to 80 due to 11 out of 31 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -183462 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -183462 microseconds.  Ignoring time.
+Nmap scan report for 192.168.103.15
+Host is up, received arp-response (0.0021s latency).
+Scanned at 2022-07-29 11:45:03 PDT for 2523s
+Not shown: 19998 filtered ports
+Reason: 19998 no-responses
+PORT     STATE  SERVICE      REASON
+80/tcp   open   http         syn-ack ttl 128
+502/tcp  closed mbap         reset ttl 128
+2222/tcp closed EtherNetIP-1 reset ttl 128
+MAC Address: 5C:88:16:BD:82:1D (Unknown)
+Device type: specialized
+Running (JUST GUESSING): Siemens embedded (85%)
+OS CPE: cpe:/h:siemens:simatic_300
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+Aggressive OS guesses: Siemens Simatic 300 programmable logic controller (85%), Siemens SPS programmable logic controller (85%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=7/29%OT=80%CT=502%CU=%PV=Y%DS=1%DC=D%G=N%M=5C8816%TM=62E4348A%P=x86_64-pc-linux-gnu)
+SEQ(SP=106%GCD=1%ISR=10A%TI=I%CI=I%TS=U)
+SEQ(SP=105%GCD=1%ISR=108%TI=I%CI=RD%II=I%SS=S%TS=U)
+OPS(O1=M5C6NNNL%O2=M5C6NNNL%O3=M5C6NNNL%O4=M5C6NNNL%O5=M5C6NNNL%O6=M5C6NNNL)
+WIN(W1=800%W2=800%W3=800%W4=800%W5=800%W6=800)
+ECN(R=Y%DF=N%TG=80%W=800%O=M5C6NNNL%CC=N%Q=)
+T1(R=Y%DF=N%TG=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=Y%DF=N%TG=80%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T3(R=Y%DF=N%TG=80%W=800%S=O%A=S+%F=AS%O=M5C6NNNL%RD=0%Q=)
+T4(R=Y%DF=N%TG=80%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T5(R=Y%DF=N%TG=80%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=N%TG=80%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T7(R=Y%DF=N%TG=80%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=N)
+IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 29 12:27:06 2022 -- 1 IP address (1 host up) scanned in 2523.12 seconds

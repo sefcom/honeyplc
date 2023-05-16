@@ -1,0 +1,665 @@
+--2022-07-28 16:53:43--  http://192.168.0.5/
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 302 Redirect
+Location: http://192.168.0.5/index.html [following]
+--2022-07-28 16:53:43--  http://192.168.0.5/index.html
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1209 (1.2K) [text/html]
+Saving to: ‘192.168.0.5/index.html’
+
+     0K .                                                     100%  345K=0.003s
+
+2022-07-28 16:53:43 (345 KB/s) - ‘192.168.0.5/index.html’ saved [1209/1209]
+
+Loading robots.txt; please ignore errors.
+--2022-07-28 16:53:43--  http://192.168.0.5/robots.txt
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 404 Site or Page Not Found
+2022-07-28 16:53:43 ERROR 404: Site or Page Not Found.
+
+--2022-07-28 16:53:43--  http://192.168.0.5/css/radevice.css
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1993 (1.9K) [text/css]
+Saving to: ‘192.168.0.5/css/radevice.css’
+
+     0K .                                                     100%  395K=0.005s
+
+2022-07-28 16:53:43 (395 KB/s) - ‘192.168.0.5/css/radevice.css’ saved [1993/1993]
+
+--2022-07-28 16:53:43--  http://192.168.0.5/redirect.html
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 170 [text/html]
+Saving to: ‘192.168.0.5/redirect.html’
+
+     0K                                                       100% 3.78M=0s
+
+2022-07-28 16:53:43 (3.78 MB/s) - ‘192.168.0.5/redirect.html’ saved [170/170]
+
+--2022-07-28 16:53:43--  http://192.168.0.5/header.asp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/header.asp.html’
+
+     0K .                                                       172K=0.007s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:43 (172 KB/s) - ‘192.168.0.5/header.asp.html’ saved [1163]
+
+--2022-07-28 16:53:43--  http://192.168.0.5/navtree/navtree.html
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8698 (8.5K) [text/html]
+Saving to: ‘192.168.0.5/navtree/navtree.html’
+
+     0K ........                                              100%  341K=0.02s
+
+2022-07-28 16:53:43 (341 KB/s) - ‘192.168.0.5/navtree/navtree.html’ saved [8698/8698]
+
+--2022-07-28 16:53:43--  http://192.168.0.5/home.asp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/home.asp.html’
+
+     0K ....                                                    116K=0.04s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:43 (116 KB/s) - ‘192.168.0.5/home.asp.html’ saved [4929]
+
+--2022-07-28 16:53:43--  http://192.168.0.5/scripts/URLhandle.js
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1701 (1.7K) [application/x-javascript]
+Saving to: ‘192.168.0.5/scripts/URLhandle.js’
+
+     0K .                                                     100%  338K=0.005s
+
+2022-07-28 16:53:43 (338 KB/s) - ‘192.168.0.5/scripts/URLhandle.js’ saved [1701/1701]
+
+--2022-07-28 16:53:43--  http://192.168.0.5/images/spacer.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: ‘192.168.0.5/images/spacer.gif’
+
+     0K                                                       100% 13.1K=0.003s
+
+2022-07-28 16:53:43 (13.1 KB/s) - ‘192.168.0.5/images/spacer.gif’ saved [43/43]
+
+--2022-07-28 16:53:43--  http://192.168.0.5/images/ablogo.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/gif]
+Saving to: ‘192.168.0.5/images/ablogo.gif’
+
+     0K                                                       100%  247K=0.004s
+
+2022-07-28 16:53:43 (247 KB/s) - ‘192.168.0.5/images/ablogo.gif’ saved [926/926]
+
+--2022-07-28 16:53:43--  http://192.168.0.5/images/ralogo.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1099 (1.1K) [image/gif]
+Saving to: ‘192.168.0.5/images/ralogo.gif’
+
+     0K .                                                     100%  206K=0.005s
+
+2022-07-28 16:53:44 (206 KB/s) - ‘192.168.0.5/images/ralogo.gif’ saved [1099/1099]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/css/navtree.css
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1351 (1.3K) [text/css]
+Saving to: ‘192.168.0.5/css/navtree.css’
+
+     0K .                                                     100%  296K=0.004s
+
+2022-07-28 16:53:44 (296 KB/s) - ‘192.168.0.5/css/navtree.css’ saved [1351/1351]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/scripts/navtree.js
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2012 (2.0K) [application/x-javascript]
+Saving to: ‘192.168.0.5/scripts/navtree.js’
+
+     0K .                                                     100%  417K=0.005s
+
+2022-07-28 16:53:44 (417 KB/s) - ‘192.168.0.5/scripts/navtree.js’ saved [2012/2012]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/images/paper.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 146 [image/gif]
+Saving to: ‘192.168.0.5/images/paper.gif’
+
+     0K                                                       100% 53.7K=0.003s
+
+2022-07-28 16:53:44 (53.7 KB/s) - ‘192.168.0.5/images/paper.gif’ saved [146/146]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/images/folder.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 145 [image/gif]
+Saving to: ‘192.168.0.5/images/folder.gif’
+
+     0K                                                       100% 55.0K=0.003s
+
+2022-07-28 16:53:44 (55.0 KB/s) - ‘192.168.0.5/images/folder.gif’ saved [145/145]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/diagover.asp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/diagover.asp.html’
+
+     0K .........                                              74.9K=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (74.9 KB/s) - ‘192.168.0.5/diagover.asp.html’ saved [9622]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/diagnetwork.asp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/diagnetwork.asp.html’
+
+     0K ....                                                   56.3K=0.09s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (56.3 KB/s) - ‘192.168.0.5/diagnetwork.asp.html’ saved [4967]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/msgconnect.asp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/msgconnect.asp.html’
+
+     0K ...                                                     125K=0.03s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (125 KB/s) - ‘192.168.0.5/msgconnect.asp.html’ saved [3510]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/ioconnect.asp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/ioconnect.asp.html’
+
+     0K ...                                                     202K=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (202 KB/s) - ‘192.168.0.5/ioconnect.asp.html’ saved [3581]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/etherstats.asp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/etherstats.asp.html’
+
+     0K ......                                                 70.0K=0.09s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (70.0 KB/s) - ‘192.168.0.5/etherstats.asp.html’ saved [6525]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=encapstats
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=encapstats.html’
+
+     0K ..                                                      782K=0.003s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (782 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=encapstats.html’ saved [2331]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=encapsess
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=encapsess.html’
+
+     0K .                                                       976K=0.001s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (976 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=encapsess.html’ saved [1400]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=driverstats
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=driverstats.html’
+
+     0K ...                                                     922K=0.004s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (922 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=driverstats.html’ saved [3598]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=icmp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=icmp.html’
+
+     0K ..                                                      740K=0.003s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (740 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=icmp.html’ saved [2088]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=igmp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=igmp.html’
+
+     0K .                                                       918K=0.002s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (918 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=igmp.html’ saved [1756]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=ip
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=ip.html’
+
+     0K ..                                                      685K=0.003s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (685 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=ip.html’ saved [2057]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=udp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=udp.html’
+
+     0K .                                                       928K=0.002s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (928 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=udp.html’ saved [1755]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=tcp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=tcp.html’
+
+     0K ....                                                    620K=0.007s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (620 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=tcp.html’ saved [4248]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=netmem
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=netmem.html’
+
+     0K ..                                                      885K=0.003s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:44 (885 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=netmem.html’ saved [2967]
+
+--2022-07-28 16:53:44--  http://192.168.0.5/rokform/advancedDiags?pageReq=mbuf
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=mbuf.html’
+
+     0K ...                                                     872K=0.003s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:45 (872 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=mbuf.html’ saved [3109]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/rokform/advancedDiags?pageReq=crash
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=crash.html’
+
+     0K                                                         723K=0.001s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:45 (723 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=crash.html’ saved [912]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/rokform/advancedDiags?pageReq=heap
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=heap.html’
+
+     0K ..                                                      717K=0.003s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:45 (717 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=heap.html’ saved [2066]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/rokform/advancedDiags?pageReq=genmem
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/advancedDiags?pageReq=genmem.html’
+
+     0K .                                                       879K=0.002s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:45 (879 KB/s) - ‘192.168.0.5/rokform/advancedDiags?pageReq=genmem.html’ saved [1725]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/chassisWho.asp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/chassisWho.asp.html’
+
+     0K .....                                                  30.3K=0.2s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:45 (30.3 KB/s) - ‘192.168.0.5/chassisWho.asp.html’ saved [5741]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/menustarton.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 70 [image/gif]
+Saving to: ‘192.168.0.5/images/menustarton.gif’
+
+     0K                                                       100% 32.3K=0.002s
+
+2022-07-28 16:53:45 (32.3 KB/s) - ‘192.168.0.5/images/menustarton.gif’ saved [70/70]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/menubgon.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 47 [image/gif]
+Saving to: ‘192.168.0.5/images/menubgon.gif’
+
+     0K                                                       100% 10.4K=0.004s
+
+2022-07-28 16:53:45 (10.4 KB/s) - ‘192.168.0.5/images/menubgon.gif’ saved [47/47]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/menuendon.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 114 [image/gif]
+Saving to: ‘192.168.0.5/images/menuendon.gif’
+
+     0K                                                       100% 75.3K=0.001s
+
+2022-07-28 16:53:45 (75.3 KB/s) - ‘192.168.0.5/images/menuendon.gif’ saved [114/114]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/menuendbg.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 47 [image/gif]
+Saving to: ‘192.168.0.5/images/menuendbg.gif’
+
+     0K                                                       100% 28.6K=0.002s
+
+2022-07-28 16:53:45 (28.6 KB/s) - ‘192.168.0.5/images/menuendbg.gif’ saved [47/47]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/border.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: ‘192.168.0.5/images/border.gif’
+
+     0K                                                       100% 13.5K=0.003s
+
+2022-07-28 16:53:45 (13.5 KB/s) - ‘192.168.0.5/images/border.gif’ saved [43/43]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/scripts/refresh.js
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 582 [application/x-javascript]
+Saving to: ‘192.168.0.5/scripts/refresh.js’
+
+     0K                                                       100%  123K=0.005s
+
+2022-07-28 16:53:45 (123 KB/s) - ‘192.168.0.5/scripts/refresh.js’ saved [582/582]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/menseponoff.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 124 [image/gif]
+Saving to: ‘192.168.0.5/images/menseponoff.gif’
+
+     0K                                                       100% 46.4K=0.003s
+
+2022-07-28 16:53:45 (46.4 KB/s) - ‘192.168.0.5/images/menseponoff.gif’ saved [124/124]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/menubgoff.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 47 [image/gif]
+Saving to: ‘192.168.0.5/images/menubgoff.gif’
+
+     0K                                                       100% 32.5K=0.001s
+
+2022-07-28 16:53:45 (32.5 KB/s) - ‘192.168.0.5/images/menubgoff.gif’ saved [47/47]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/mensepoffoff.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 121 [image/gif]
+Saving to: ‘192.168.0.5/images/mensepoffoff.gif’
+
+     0K                                                       100% 55.1K=0.002s
+
+2022-07-28 16:53:45 (55.1 KB/s) - ‘192.168.0.5/images/mensepoffoff.gif’ saved [121/121]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/menuendoff.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 112 [image/gif]
+Saving to: ‘192.168.0.5/images/menuendoff.gif’
+
+     0K                                                       100% 76.1K=0.001s
+
+2022-07-28 16:53:45 (76.1 KB/s) - ‘192.168.0.5/images/menuendoff.gif’ saved [112/112]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/menustartoff.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 71 [image/gif]
+Saving to: ‘192.168.0.5/images/menustartoff.gif’
+
+     0K                                                       100% 46.7K=0.001s
+
+2022-07-28 16:53:45 (46.7 KB/s) - ‘192.168.0.5/images/menustartoff.gif’ saved [71/71]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/mensepoffon.gif
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 130 [image/gif]
+Saving to: ‘192.168.0.5/images/mensepoffon.gif’
+
+     0K                                                       100% 71.0K=0.002s
+
+2022-07-28 16:53:45 (71.0 KB/s) - ‘192.168.0.5/images/mensepoffon.gif’ saved [130/130]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/images/1756enet.bmp
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 182 [text/plain]
+Saving to: ‘192.168.0.5/images/1756enet.bmp’
+
+     0K                                                       100% 62.7K=0.003s
+
+2022-07-28 16:53:45 (62.7 KB/s) - ‘192.168.0.5/images/1756enet.bmp’ saved [182/182]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/rokform/chassisDetail?slot=0
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=0.html’
+
+     0K ..                                                     31.5K=0.08s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:45 (31.5 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=0.html’ saved [2728]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/rokform/chassisDetail?slot=1
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=1.html’
+
+     0K ..                                                     59.5K=0.04s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:45 (59.5 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=1.html’ saved [2718]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/rokform/chassisDetail?slot=2
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=2.html’
+
+     0K ..                                                     32.6K=0.08s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:45 (32.6 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=2.html’ saved [2718]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/rokform/chassisDetail?slot=0&pagereq=backplane
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=0&pagereq=backplane.html’
+
+     0K ...                                                    41.7K=0.07s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:45 (41.7 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=0&pagereq=backplane.html’ saved [3151]
+
+--2022-07-28 16:53:45--  http://192.168.0.5/rokform/chassisDetail?slot=0&pagereq=conmanage
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=0&pagereq=conmanage.html’
+
+     0K ..                                                     38.2K=0.06s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:46 (38.2 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=0&pagereq=conmanage.html’ saved [2219]
+
+--2022-07-28 16:53:46--  http://192.168.0.5/rokform/chassisDetail?slot=1&pagereq=backplane
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=1&pagereq=backplane.html’
+
+     0K ...                                                    30.5K=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:46 (30.5 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=1&pagereq=backplane.html’ saved [3152]
+
+--2022-07-28 16:53:46--  http://192.168.0.5/rokform/chassisDetail?slot=1&pagereq=conmanage
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=1&pagereq=conmanage.html’
+
+     0K ..                                                     30.8K=0.09s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:46 (30.8 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=1&pagereq=conmanage.html’ saved [2795]
+
+--2022-07-28 16:53:46--  http://192.168.0.5/rokform/chassisDetail?slot=2&pagereq=backplane
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=2&pagereq=backplane.html’
+
+     0K ...                                                    71.1K=0.04s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:46 (71.1 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=2&pagereq=backplane.html’ saved [3151]
+
+--2022-07-28 16:53:46--  http://192.168.0.5/rokform/chassisDetail?slot=2&pagereq=conmanage
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=2&pagereq=conmanage.html’
+
+     0K ..                                                     42.9K=0.05s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:46 (42.9 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=2&pagereq=conmanage.html’ saved [2219]
+
+--2022-07-28 16:53:46--  http://192.168.0.5/rokform/chassisDetail?slot=0&pagereq=module
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=0&pagereq=module.html’
+
+     0K ..                                                     31.2K=0.09s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:46 (31.2 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=0&pagereq=module.html’ saved [2728]
+
+--2022-07-28 16:53:46--  http://192.168.0.5/rokform/chassisDetail?slot=1&pagereq=module
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=1&pagereq=module.html’
+
+     0K ..                                                     42.6K=0.06s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:46 (42.6 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=1&pagereq=module.html’ saved [2718]
+
+--2022-07-28 16:53:46--  http://192.168.0.5/rokform/chassisDetail?slot=2&pagereq=module
+Connecting to 192.168.0.5:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.0.5/rokform/chassisDetail?slot=2&pagereq=module.html’
+
+     0K ..                                                     31.6K=0.08s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-28 16:53:46 (31.6 KB/s) - ‘192.168.0.5/rokform/chassisDetail?slot=2&pagereq=module.html’ saved [2718]
+
+FINISHED --2022-07-28 16:53:46--
+Total wall clock time: 3.0s
+Downloaded: 58 files, 121K in 1.6s (77.3 KB/s)
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=icmp.html... 2-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=encapstats.html... 2-0
+Converting links in 192.168.0.5/header.asp.html... 4-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=crash.html... 1-0
+Converting links in 192.168.0.5/navtree/navtree.html... 54-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=2.html... 16-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=0&pagereq=conmanage.html... 16-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=0&pagereq=backplane.html... 16-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=heap.html... 2-0
+Converting links in 192.168.0.5/chassisWho.asp.html... 14-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=encapsess.html... 2-0
+Converting links in 192.168.0.5/diagnetwork.asp.html... 20-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=netmem.html... 2-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=1.html... 16-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=tcp.html... 2-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=ip.html... 2-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=genmem.html... 2-0
+Converting links in 192.168.0.5/home.asp.html... 8-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=0.html... 16-0
+Converting links in 192.168.0.5/diagover.asp.html... 21-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=1&pagereq=conmanage.html... 16-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=1&pagereq=backplane.html... 16-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=2&pagereq=module.html... 16-0
+Converting links in 192.168.0.5/etherstats.asp.html... 21-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=1&pagereq=module.html... 16-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=mbuf.html... 2-0
+Converting links in 192.168.0.5/redirect.html... 1-0
+Converting links in 192.168.0.5/index.html... 5-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=driverstats.html... 2-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=0&pagereq=module.html... 16-0
+Converting links in 192.168.0.5/msgconnect.asp.html... 21-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=2&pagereq=conmanage.html... 16-0
+Converting links in 192.168.0.5/rokform/chassisDetail?slot=2&pagereq=backplane.html... 16-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=udp.html... 2-0
+Converting links in 192.168.0.5/ioconnect.asp.html... 21-0
+Converting links in 192.168.0.5/rokform/advancedDiags?pageReq=igmp.html... 2-0
+Converting links in 192.168.0.5/css/navtree.css... nothing to do.
+Converting links in 192.168.0.5/css/radevice.css... nothing to do.
+Converted links in 38 files in 0.006 seconds.

@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Fri Jul 29 11:28:34 2022 as: nmap -vvv -O -p 1-10000,45000-55000 -oN phoenix.fingerprint -e enp0s10 192.168.56.1
+Nmap scan report for 192.168.56.1 [host down, received no-response]
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Jul 29 11:28:35 2022 -- 1 IP address (0 hosts up) scanned in 0.90 seconds

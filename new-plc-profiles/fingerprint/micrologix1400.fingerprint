@@ -1,0 +1,41 @@
+# Nmap 7.60 scan initiated Tue Jul 26 13:48:51 2022 as: nmap -vvv -p 1-2000 -O -oN micrologix1400.fingerprint 192.168.103.15
+adjust_timeouts2: packet supposedly had rtt of -181399 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -181399 microseconds.  Ignoring time.
+Nmap scan report for 192.168.103.15
+Host is up, received arp-response (0.0033s latency).
+Scanned at 2022-07-26 13:48:51 PDT for 14s
+Not shown: 1998 filtered ports
+Reason: 1998 no-responses
+PORT    STATE  SERVICE REASON
+80/tcp  open   http    syn-ack ttl 128
+502/tcp closed mbap    reset ttl 128
+MAC Address: 5C:88:16:BD:82:1D (Unknown)
+Device type: specialized
+Running (JUST GUESSING): Siemens embedded (85%)
+OS CPE: cpe:/h:siemens:simatic_300
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+Aggressive OS guesses: Siemens Simatic 300 programmable logic controller (85%), Siemens SPS programmable logic controller (85%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=7/26%OT=80%CT=502%CU=%PV=Y%DS=1%DC=D%G=N%M=5C8816%TM=62E05341%P=x86_64-pc-linux-gnu)
+SEQ(SP=104%GCD=1%ISR=10D%TI=I%CI=I%TS=U)
+OPS(O1=M5C6NNNL%O2=M5C6NNNL%O3=M5C6NNNL%O4=M5C6NNNL%O5=M5C6NNNL%O6=M5C6NNNL)
+WIN(W1=800%W2=800%W3=800%W4=800%W5=800%W6=800)
+ECN(R=Y%DF=N%TG=80%W=800%O=M5C6NNNL%CC=N%Q=)
+T1(R=Y%DF=N%TG=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=Y%DF=N%TG=80%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T3(R=Y%DF=N%TG=80%W=800%S=O%A=S+%F=AS%O=M5C6NNNL%RD=0%Q=)
+T4(R=Y%DF=N%TG=80%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T5(R=Y%DF=N%TG=80%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=N%TG=80%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T7(R=Y%DF=N%TG=80%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=N)
+IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 26 13:49:05 2022 -- 1 IP address (1 host up) scanned in 14.14 seconds

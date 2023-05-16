@@ -1,0 +1,275 @@
+/*
+/* CSS for MiniWeb mediatype: Display
+*/
+
+/* general CSS styles */
+* { margin: 0px; padding: 0px; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000; background: url(../Images/background.gif) repeat-y #EAEAEA; width: 100%; }
+#ERROR { background: none; background-color: #FF0000; color: #000040; }
+img { border: 0px none; }
+a { color: #000080; text-decoration: underline; font-size: 12px; font-weight: normal; }
+ul { list-style-position: inside; }
+h1 { font-size: 16px; font-weight: bold; color: #444; text-transform: uppercase; }
+h2 { font-size: 16px; font-weight: bold; color: #666; }
+h3 { font-size: 12px; font-weight: bold; color: #000; }
+/*input, select { height: 14px; padding: 3px; color: #000; background-color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; border: 0px none; }*/
+select { border: 1px solid #999; padding: 0px; height: 18px; background-color: #fff; }
+input[type=checkbox], input[type=radio] { vertical-align: middle; position: relative; bottom: 2px; background-color: #EAEAEA; }
+input[type=radio] { bottom: 1px; }
+/* button, input[type=submit], input[type=button] { height: 20px; padding: 2px 10px 2px 10px; background-color: #bfbfbf; font-size: 12px; color: #000; border: 1px solid #666; text-align: center; min-width: 42px; } */
+/* input[type=file] { height: 20px; padding: 2px 10px 2px 10px; background-color: #fff; font-size: 12px; color: #000; border: 1px solid #666; text-align: center; min-width: 42px; } */
+button.text[type=submit], button.text[type=button], input.text[type=submit], input.text[type=button] { border: 0px none; background-color: transparent !important; font-size: 12px; text-align: left; color: #000080; display: inline-block; padding: 0px; margin: 0px 0px 0px 6px;  text-decoration: underline; min-width: 0px; cursor: pointer; vertical-align:middle; white-space: nowrap; }
+button[disabled], input[type=submit][disabled], input[type=button][disabled] {color: #999; border: 1px solid #999}
+
+/* Remove button padding in Firefox */
+button::-moz-focus-inner, input[type=submit]::-moz-focus-inner, input[type=button]::-moz-focus-inner { border: 0 !important; padding: 0 !important; }
+
+div.clearer { clear: both; }
+
+/* area styles */
+div#page { width: 100%; }
+
+/* header area with logo and title */
+div#headerArea { position: absolute; left: 0px; top: 0px; right: 0px; height: 56px; background-color: #FFF; min-width: 950px; }
+  div#headerArea img#logo { float: left; margin-right: 12px; }
+  div#headerArea p#headerTitle { /*float:left;*/ margin-top: 19px; font-size: 16px; font-weight: bold; color: #444; word-break:break-all; display:inline-block; }
+  div#headerArea span#headerJavaScript { float:right; margin-top: 19px; font-size: 14px; color: red; word-break:break-all; padding-right: 12px; }
+
+/* date-time-bar with language selection box */
+div#dateTimeBar { position: absolute; left: 0px; top: 56px; right: 0px; height: 20px; width: 100%; background-color: #999; color: #FFF; text-align: right;  min-width: 950px; }
+  div#dateTimeBar span#time { float: right; margin-right: 12px; margin-top: 3px; }
+  div#dateTimeBar span#date { float: right; margin-right: 12px; margin-top: 3px; }
+  form#languageSelectionForm { float: right; margin-right: 12px; }
+  form#languageSelectionForm select { float: left; margin: 0px; width: 90px; height: 20px; }
+  /*form#languageSelectionForm a { float: left; margin-top: 2px; }*/
+  /*form#languageSelectionForm input#languageGoButton, form#languageSelectionForm button#languageGoButton { height: auto; border: 0px none; background-color: transparent !important; font-size: 12px; text-align: left; color: #000080; display: inline; padding: 0px; margin: 2px 0px 0px 6px; text-decoration: underline; min-width: 0px; }*/
+
+/* separator lines obove and under the login box/title area */
+div#separatorLine1 { position: absolute; left: 0px; top: 76px; right: 0px; height: 1px; width: 100%; background-color: #FFF; min-width: 950px; }
+div#separatorLine2 { position: absolute; left: 0px; top: 137px; right: 0px; height: 1px; width: 100%; background-color: #FFF; min-width: 950px; }
+div#separatorLine3 { position: absolute; left: 0px; top: 60px; right: 0px; height: 1px; width: 100%; background-color: #FFF; min-width: 764px; }
+
+/* login box */
+div#page > div#loginBox { position: absolute; left: 0px; top: 77px; height: 49px; width: 174px; padding: 11px 0px 0px 12px; color: #444; background-color: #AFB4BE; }
+  form#loginForm {}
+    form#loginForm div#loginFields { float: left; margin-right: 6px; }
+    form#loginForm div#loginButtons { float: right; position: relative; }
+      div#loginType { width: 34px; margin-left:2px; text-align: right; position: absolute; right: 0px; }
+      div#loginType a { float: left; }
+    form#loginForm div#loginFields input { height: 12px; width: 116px; border: 0px none; background-color: #FFF; color: #AFB4BE; padding: 3px 3px 3px 3px; margin: 0px 0px 6px 0px; }
+    form#loginForm div#loginButton { position: absolute; right: 0px; top: 24px; }
+    /*form#loginForm div#loginButton a { font-size: 12px; }*/
+
+/* logout box */
+div#page > div#logoutBox { position: absolute; left: 0px; top: 77px; height: 48px; width: 162px; padding: 12px 12px 0px 12px; color: #444; background-color: #afb4be; }
+  form#logoutForm {}
+    form#logoutForm div#loggedInUser { float: left; width: 121px; margin-right: 6px; }
+    form#logoutForm div#logoutButton { float: right; margin-top: 7px; text-align: right; padding-right: 12px; }
+
+/* title area with title menu or alternate drop-down menu, filter box and print button */
+div#titleArea { position: relative; left: 0px; top: 0px; right: 0px; height: 52px; padding: 8px 0px 0px 12px; color: #666; background-color: #ccc;}
+  div#titleArea h1 { font-size: 16px; font-weight: bold; color: #666; text-transform: none;}
+
+  /* the title menu */
+  div#titleMenuArea { margin-top: 6px; }
+    ul#titleMenu { list-style: none; margin-right: 12px; margin-top: 2px; float: left; }
+    ul#titleMenu li { float: left; margin-top: 0px; margin-right: 0px; }
+    ul#titleMenu li a { padding: 0px 4px 0px 4px; font-weight: bold; color: #990; }
+    ul#titleMenu li a.first { padding-left: 0px !important; }
+    ul#titleMenu li a:hover, ul#titleMenu li a.selected { font-weight: bold; color: #000080; }
+
+    /* the drop-down menu */
+    form#titleDropDownMenuForm { margin-top: 0px; margin-right: 12px; float: left; }
+    form#titleDropDownMenuForm select { margin: 0px 6px 0px 0px; float: left; }
+    form#titleDropDownMenuForm button { float: left; }
+
+  /* the filter box */
+  div#filterBox { position: absolute; right: 12px; top: 10px; }
+    form#filterBoxForm { }
+    form#filterBoxForm select { margin: 0px 12px 0px 0px; float: left; }
+    form#filterBoxForm input { margin: 0px 12px 0px 0px; float: left; background-color: #fff; }
+    form#filterBoxForm button { float: left; background-color: #fff; }
+    div#filterBox p { font-weight: bold; color: #666; margin-top: 6px; }
+        div#filterBox p#filterDescriptionVerb { display: none; }
+        div#filterBox p#filterNoResults { display: none; }
+
+    /* hide the buttons for navigating between main navigation items */
+    div#titleArea div#navigationbuttons { display: none; }
+
+  /* the button, for example print button u. s. o. */
+  div#titleArea div#buttons { position: absolute; right: 28px; bottom: 12px; z-index: 100; }
+    /*div#titleArea div#buttons a { margin-left: 6px; float: right; }*/
+    div#titleArea div#buttons a { margin-left: 6px; }
+
+/* navigation area with the main menu */
+div#navigationArea { position: absolute; left: 0px; top: 138px; width: 174px; padding: 0px 0px 20px 12px; color: #666; background-color: #D0D3DA; bottom: 0px; height: auto; overflow: auto; }
+  ul#mainMenuLevel1 { list-style-position: outside; list-style: none; margin-top:22px; }
+  ul#introMenu { list-style-position: outside; list-style: none; margin-top: 36px; }
+  ul#mainMenuLevel1 li,  ul#introMenu li { padding-bottom: 19px; }
+  ul#mainMenuLevel1 li a, ul#introMenu li a { padding-left: 10px; font-size: 14px; font-weight: normal; color: #666; background: url(../Images/NaviPfeilweiss.gif) no-repeat 0px 5px; text-decoration: none; max-width: 162px; }
+  /*ul#mainMenuLevel1 li a:hover, */ul#mainMenuLevel1 li a.selected, /*ul#introMenu li a:hover, */ul#introMenu li a.selected { padding-left: 10px; font-size: 14px; font-weight: bold; color: #000080; background: url(../Images/NaviPfeilblau.gif) no-repeat 0px 5px; max-width: 162px; }
+
+/* client area with secondary menu, extended menu and the content area */
+/* 
+div#clientArea { position: absolute; left: 186px; top: 138px; right: 0px; bottom: 0px; display: block; }
+*/
+div#clientArea { position: absolute; left: 186px; top: 77px; right: 0px; bottom: 0px; display: block; min-width: 764px; }
+
+  /* the secondary menu */
+  div#secondaryExtendedNavigationArea {  }
+  div#secondaryMenuArea { background-color: #999; height: 23px; overflow: hidden; }
+    ul#secondaryMenu { list-style: none; }
+    ul#secondaryMenu li { float: left; margin-top: 3px; margin-right: 2px; }
+
+    /* IE8 Workaround */
+    /*ul#secondaryMenu li a { height: 16px; display: block; padding: 4px 4px 0px 4px; font-weight: bold; color: #444; background-color: #CCC; text-decoration: none; cursor: pointer;}*/
+    ul#secondaryMenu li a { height: 16px; padding: 4px 4px 0px 4px; font-weight: bold; color: #444; background-color: #CCC; text-decoration: none; cursor: pointer;}
+    div > div > ul#secondaryMenu li a { display: block; }
+
+    ul#secondaryMenu li a:hover, ul#secondaryMenu li a.selected { font-size: 12px; font-weight: bold; color: #000; background-color: #EAEAEA; }
+
+  /* the extended menu */
+  div#extendedMenuArea { background: url(../Images/background_extMenu.gif) no-repeat; height: 23px; margin-top: 6px;  }
+    ul#extendedMenu { list-style: none; }
+    ul#extendedMenu li { float: left; margin-top: 0px; margin-right: 0px; border-top: 3px solid #999; border-right: 2px solid #999; }
+    ul#extendedMenu li a { height: 16px; display: block; padding: 4px 4px 0px 4px; font-weight: bold; color: #444; background-color: #CCC; text-decoration: none; }
+    ul#extendedMenu li a:hover, ul#extendedMenu li a.selected { font-weight: bold; color: #000; background-color: #EAEAEA; }
+
+/* the content area */
+div#contentArea
+{
+  /*padding:              12px;*/
+  color:                #000000;
+  overflow:             auto;
+  background-color:     #EAEAEA;
+  position:             absolute;
+  bottom:               0px;
+  left:                 0px;
+  right:                0px;
+  top:                  61px;
+}
+
+div#contentAreaTabbed
+{
+  /*padding:              12px;*/
+  color:                #000000;
+  overflow:             auto;
+  background-color:     #EAEAEA;
+  position:             absolute;
+  bottom:               0px;
+  left:                 0px;
+  right:                0px;
+  top:                  82px;
+}
+
+#contentAreaDetailed
+{
+    overflow-y:scroll;
+    top:138px;
+    bottom:150px;
+    position: fixed;
+}
+
+/* disable click while loading */
+div#loading
+{
+  position:             absolute;
+  bottom:               0px;
+  left:                 0px;
+  right:                0px;
+  top:                  0px;
+
+  background-color:     rgb(175, 180, 190);
+
+  opacity:              0.5;
+  z-index:              1000;
+}
+
+/* content styles */
+
+/* table style for data tables with alternating background row color and sorting options */
+table.datatable { border: 0px none; table-layout: auto; background-color: #FFF; border-spacing: 1px;}
+  table.datatable tr, table tr.odd { background-color: #EAEAEA; } /* odd table row */
+  table.datatable tr.even { background-color: #D8D8D8; } /* even table row */
+  table.datatable tr.selected { background-color: #C1CEE9 !important; } /* selected table row */
+  /* table header row */
+  table.datatable th { font-size: 12px; font-weight: normal; color: #000; background-color: #BFBFBF; border: 0px solid #FFF; text-align: left; height: 15px; padding: 1px 20px 0px 2px; }
+  table.datatable th span.sortarrow { vertical-align: middle; position: relative; bottom: 3px; padding-left: 12px; }
+  table.datatable th span.unsorted { vertical-align: middle; position: relative; bottom: 0px; padding-left: 12px; }
+  table.datatable th a { text-decoration: none; color: #000; }
+  /* table column */
+  table.datatable td { font-size: 12px; font-weight: normal; color: #000; border: 0px solid #FFF; text-align: left; height: 15px; padding: 1px 20px 0px 2px; }
+    table.datatable td a { text-decoration: none; color: #000; }
+
+/* form fields */
+div#contentArea div.captionlabel { color: #666; vertical-align: middle; text-align: right; font-weight: bold; }
+div#contentArea label { display: inline-block; color: #666; text-align: right; margin-right: 6px; }
+div#contentArea input[type="text"], div#contentArea input[type="password"] { display: inline-block; height: 18px; padding: 0px 3px 0px 3px; } /* input field */
+div#contentArea input[type="text"][readonly], div#contentArea input[type="password"][readonly] { display: inline-block; height: 18px; padding: 0px 3px 0px 3px; background-color: #ddd; } /* output field */
+div#contentArea textarea { display: inline; min-height: 18px; border: 0px none; padding: 1px 2px 0px 2px; overflow:auto;}
+div#contentArea textarea[readonly] { display: inline; min-height: 18px; border: 0px none; background-color: #ddd; padding: 1px 2px 0px 2px; }
+div#contentArea select { display: inline-block; height: 18px; } /* dropdown */
+div#contentArea input[type="checkbox"], div#contentArea input[type="radio"] { display: inline-block; height: 18px; }
+
+/* details box */
+div.details { font-size: 12px; color: #000; background-color: #DDD; width: 100%; margin: 0px; }
+
+  /* header */
+  div.details div.header { padding: 7px 12px 4px 12px; height: 12px; font-weight: bold; background-color: #999; }
+  div.details div.header div.left { float: left; }
+  div.details div.header div.right { float: right; text-align: right; }
+
+  /* content */
+  div.details div.content { clear: both; padding: 12px 12px 12px 12px; font-weight: normal; }
+
+/* styles for dialogs */
+div.dialog { position: fixed; left: 0px; top: 0px; border: solid 1px black; background-color: #D0D3DA; opacity: 1.0; display: inline-block; color: black; }
+div.dialogModalBlock { position:fixed; left: 0px; top: 0px; width: 100%; height: 100%; background-color: #000000; opacity: 0.5; }
+div.dialogTitle { height: 1.5em; text-align: center; color: black; border-bottom: groove 2px #FFFFFF; padding: 5px;}
+div.dialogMinimize { background: url(http://192.168.104.16/Images/dialogbuttons.gif) no-repeat scroll 0px 0px; width: 16px; height: 16px; float: right; }
+div.dialogMaximize { background: url(http://192.168.104.16/Images/dialogbuttons.gif) no-repeat scroll -16px 0px; width: 16px; height: 16px; float: right; }
+div.dialogRestore { background: url(http://192.168.104.16/Images/dialogbuttons.gif) no-repeat scroll -32px 0px; width: 16px; height: 16px; float: right; }
+div.dialogClose { background: url(http://192.168.104.16/Images/dialogbuttons.gif) no-repeat scroll -48px 0px; width: 16px; height: 16px; float: right; }
+div.dialogResize { background: url(http://192.168.104.16/Images/dialogbuttons.gif) no-repeat scroll -64px 0px; cursor: se-resize; position: absolute; right: 0px; bottom: 0px; width: 16px; height: 16px; }
+div.dialogMinimizeArea { position: absolute; left: 0px; bottom: 0px; width: 100%; height: 100px; background-color: #AAAAAA; }
+div.dialogContent { clear: both; margin-left: 5px; margin-right: 5px; }
+div.dialogButtons { position: absolute; left: 5px; bottom: 5px; right: 5px;}
+
+/* styles for tree view nodes */
+div.nodeExpanded { background: url(http://192.168.104.16/Images/expander.gif) no-repeat scroll -16px 0px; width: 16px; height: 16px; float: left; }
+div.nodeCollapsed { background: url(http://192.168.104.16/Images/expander.gif) no-repeat scroll 0px 0px; width: 16px; height: 16px; float: left; }
+div.nodeExpanderPlaceholder { background: transparent; width: 16px; height: 16px; float: left; }
+div.nodeIconPlaceholder { background: transparent; width: 16px; height: 16px; float: left; }
+div.nodeTitle { float: left; }
+div.nodeHover {}
+div.nodeSelected { background-color: #C1CEE9; }
+div.nodeDisabled { color: #444444; }
+
+/* styles for menu items */
+div.menuBar { background-color: #CCCCCC; width: 100%;}
+div.menuBarNormal { color: #000000; }
+div.menuBarHover { background-color: #EAEAEA; }
+div.menuBarSelected { background-color: #C1CEE9; }
+div.menuBarDisabled { color: #999999; }
+div.menuNormal { background-color: #CCCCCC; color: #000000; z-index: 100; }
+div.menuHover { background-color: #EAEAEA; }
+div.menuSelected { background-color: #C1CEE9; }
+div.menuDisabled { color: #999999; }
+div.menuIconPlaceholder { background: transparent; width: 16px; height: 16px; float: left; }
+div.menuItemLevel1 { float: left; position: static; padding-left: 2px; padding-right: 2px; }
+div.menuLastItemLevel1 { clear: both; }
+div.menuItemLevel2 { position: absolute; padding-left: 2px; padding-right: 2px; }
+
+/* for demonstration purposes of the PC based miniweb */
+
+/* positioning helper classes for the form fields examples */
+div#contentArea div.line { height: 18px; margin-bottom: 6px;}
+div#contentArea div.threelines { height: 66px; margin-bottom: 6px; }
+
+/* styles using the status-image. Always the same image, but it gets shifted lateron */
+.fieldset_plus, .fieldset_minus { cursor:pointer; height:15px; width:15px; display:inline-block; margin-left: 5px; margin-right: 5px; background: url(http://192.168.104.16/Images/miniweb_status.png) no-repeat 100%; vertical-align: middle; }
+.fieldset_plus { background-position: 0 0px; }
+.fieldset_minus { background-position: 0 -15px; }
+legend{font-size: 12pt; font-weight: bold; vertical-align: middle; padding-right: 10px; margin-left: 5px; margin-right: 5px; color: #666; }
+fieldset{padding:5px;border-style:solid;border-color:#CCC;border-width:1px;}
+

@@ -1,0 +1,257 @@
+--2022-07-29 13:39:03--  http://192.168.104.16/
+Connecting to 192.168.104.16:80... connected.
+HTTP request sent, awaiting response... 302 Object Moved
+Location: http://192.168.104.16/Default.mwsl [following]
+--2022-07-29 13:39:03--  http://192.168.104.16/Default.mwsl
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.104.16/index.html’
+
+     0K                                                        93.9K=0.005s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 13:39:03 (93.9 KB/s) - ‘192.168.104.16/index.html’ saved [469]
+
+Loading robots.txt; please ignore errors.
+--2022-07-29 13:39:03--  http://192.168.104.16/robots.txt
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 404 NOT FOUND
+2022-07-29 13:39:03 ERROR 404: NOT FOUND.
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Portal/Intro.mwsl
+Connecting to 192.168.104.16:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘192.168.104.16/Portal/Intro.mwsl.html’
+
+     0K .....                                                   746K=0.008s
+
+Last-modified header missing -- time-stamps turned off.
+2022-07-29 13:39:03 (746 KB/s) - ‘192.168.104.16/Portal/Intro.mwsl.html’ saved [6004]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/CSS/MiniWeb.css
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 18024 (18K) [text/css]
+Saving to: ‘192.168.104.16/CSS/MiniWeb.css’
+
+     0K .......... .......                                    100% 2.13M=0.008s
+
+2022-07-29 13:39:03 (2.13 MB/s) - ‘192.168.104.16/CSS/MiniWeb.css’ saved [18024/18024]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/CSS/S7Web.css
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 62905 (61K) [text/css]
+Saving to: ‘192.168.104.16/CSS/S7Web.css’
+
+     0K .......... .......... .......... .......... .......... 81% 1.96M 0s
+    50K .......... .                                          100% 1.96M=0.03s
+
+2022-07-29 13:39:03 (1.96 MB/s) - ‘192.168.104.16/CSS/S7Web.css’ saved [62905/62905]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/Siemens_Firmenmarke.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 667 [image/gif]
+Saving to: ‘192.168.104.16/Images/Siemens_Firmenmarke.gif’
+
+     0K                                                       100% 99.1M=0s
+
+2022-07-29 13:39:03 (99.1 MB/s) - ‘192.168.104.16/Images/Siemens_Firmenmarke.gif’ saved [667/667]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/cpu/intro/CPU1511C.jpg
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53299 (52K) [image/jpeg]
+Saving to: ‘192.168.104.16/cpu/intro/CPU1511C.jpg’
+
+     0K .......... .......... .......... .......... .......... 96% 2.06M 0s
+    50K ..                                                    100% 4.44M=0.02s
+
+2022-07-29 13:39:03 (2.10 MB/s) - ‘192.168.104.16/cpu/intro/CPU1511C.jpg’ saved [53299/53299]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/intro_enter_arrow.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 850 [image/gif]
+Saving to: ‘192.168.104.16/Images/intro_enter_arrow.gif’
+
+     0K                                                       100%  152M=0s
+
+2022-07-29 13:39:03 (152 MB/s) - ‘192.168.104.16/Images/intro_enter_arrow.gif’ saved [850/850]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/background.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 146 [image/gif]
+Saving to: ‘192.168.104.16/Images/background.gif’
+
+     0K                                                       100% 24.7M=0s
+
+2022-07-29 13:39:03 (24.7 MB/s) - ‘192.168.104.16/Images/background.gif’ saved [146/146]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/NaviPfeilweiss.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: ‘192.168.104.16/Images/NaviPfeilweiss.gif’
+
+     0K                                                       100% 8.87M=0s
+
+2022-07-29 13:39:03 (8.87 MB/s) - ‘192.168.104.16/Images/NaviPfeilweiss.gif’ saved [49/49]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/NaviPfeilblau.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: ‘192.168.104.16/Images/NaviPfeilblau.gif’
+
+     0K                                                       100% 7.73M=0s
+
+2022-07-29 13:39:03 (7.73 MB/s) - ‘192.168.104.16/Images/NaviPfeilblau.gif’ saved [49/49]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/background_extMenu.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 403 [image/gif]
+Saving to: ‘192.168.104.16/Images/background_extMenu.gif’
+
+     0K                                                       100% 72.0M=0s
+
+2022-07-29 13:39:03 (72.0 MB/s) - ‘192.168.104.16/Images/background_extMenu.gif’ saved [403/403]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/dialogbuttons.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 404 NOT FOUND
+2022-07-29 13:39:03 ERROR 404: NOT FOUND.
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/expander.gif
+Connecting to 192.168.104.16:80... connected.
+HTTP request sent, awaiting response... 404 NOT FOUND
+2022-07-29 13:39:03 ERROR 404: NOT FOUND.
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/miniweb_status.png
+Connecting to 192.168.104.16:80... connected.
+HTTP request sent, awaiting response... 404 NOT FOUND
+2022-07-29 13:39:03 ERROR 404: NOT FOUND.
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/Topo/topo_head_label_background.gif
+Connecting to 192.168.104.16:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 77 [image/gif]
+Saving to: ‘192.168.104.16/Images/Topo/topo_head_label_background.gif’
+
+     0K                                                       100% 8.82M=0s
+
+2022-07-29 13:39:03 (8.82 MB/s) - ‘192.168.104.16/Images/Topo/topo_head_label_background.gif’ saved [77/77]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/Topo/topo_head_label_background_overview.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 77 [image/gif]
+Saving to: ‘192.168.104.16/Images/Topo/topo_head_label_background_overview.gif’
+
+     0K                                                       100% 7.35M=0s
+
+2022-07-29 13:39:03 (7.35 MB/s) - ‘192.168.104.16/Images/Topo/topo_head_label_background_overview.gif’ saved [77/77]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/Topo/topo_module_head_dev_not_available.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 110 [image/gif]
+Saving to: ‘192.168.104.16/Images/Topo/topo_module_head_dev_not_available.gif’
+
+     0K                                                       100% 13.2M=0s
+
+2022-07-29 13:39:03 (13.2 MB/s) - ‘192.168.104.16/Images/Topo/topo_module_head_dev_not_available.gif’ saved [110/110]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/Topo/topo_module_head_dev_not_of_project.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 110 [image/gif]
+Saving to: ‘192.168.104.16/Images/Topo/topo_module_head_dev_not_of_project.gif’
+
+     0K                                                       100% 9.11M=0s
+
+2022-07-29 13:39:03 (9.11 MB/s) - ‘192.168.104.16/Images/Topo/topo_module_head_dev_not_of_project.gif’ saved [110/110]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/Topo/topo_connector.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 57 [image/gif]
+Saving to: ‘192.168.104.16/Images/Topo/topo_connector.gif’
+
+     0K                                                       100% 4.75M=0s
+
+2022-07-29 13:39:03 (4.75 MB/s) - ‘192.168.104.16/Images/Topo/topo_connector.gif’ saved [57/57]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/Topo/topo_port_label_background.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 64 [image/gif]
+Saving to: ‘192.168.104.16/Images/Topo/topo_port_label_background.gif’
+
+     0K                                                       100% 13.8M=0s
+
+2022-07-29 13:39:03 (13.8 MB/s) - ‘192.168.104.16/Images/Topo/topo_port_label_background.gif’ saved [64/64]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/Topo/topo_port_tooltip_background.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 70 [image/gif]
+Saving to: ‘192.168.104.16/Images/Topo/topo_port_tooltip_background.gif’
+
+     0K                                                       100% 13.9M=0s
+
+2022-07-29 13:39:03 (13.9 MB/s) - ‘192.168.104.16/Images/Topo/topo_port_tooltip_background.gif’ saved [70/70]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/ICO_WEB_trash.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 973 [image/gif]
+Saving to: ‘192.168.104.16/Images/ICO_WEB_trash.gif’
+
+     0K                                                       100%  114M=0s
+
+2022-07-29 13:39:03 (114 MB/s) - ‘192.168.104.16/Images/ICO_WEB_trash.gif’ saved [973/973]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/checkmark.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 875 [image/gif]
+Saving to: ‘192.168.104.16/Images/checkmark.gif’
+
+     0K                                                       100%  101M=0s
+
+2022-07-29 13:39:03 (101 MB/s) - ‘192.168.104.16/Images/checkmark.gif’ saved [875/875]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/inprogress.gif
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 851 [image/gif]
+Saving to: ‘192.168.104.16/Images/inprogress.gif’
+
+     0K                                                       100%  153M=0s
+
+2022-07-29 13:39:03 (153 MB/s) - ‘192.168.104.16/Images/inprogress.gif’ saved [851/851]
+
+--2022-07-29 13:39:03--  http://192.168.104.16/Images/warning.png
+Reusing existing connection to 192.168.104.16:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1179 (1.2K) [image/png]
+Saving to: ‘192.168.104.16/Images/warning.png’
+
+     0K .                                                     100%  243M=0s
+
+2022-07-29 13:39:03 (243 MB/s) - ‘192.168.104.16/Images/warning.png’ saved [1179/1179]
+
+FINISHED --2022-07-29 13:39:03--
+Total wall clock time: 0.5s
+Downloaded: 22 files, 144K in 0.08s (1.86 MB/s)
+Converting links in 192.168.104.16/index.html... 2-0
+Converting links in 192.168.104.16/Portal/Intro.mwsl.html... 5-2
+Converting links in 192.168.104.16/CSS/S7Web.css... 12-0
+Converting links in 192.168.104.16/CSS/MiniWeb.css... 4-8
+Converted links in 4 files in 0.003 seconds.

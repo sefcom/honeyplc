@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Fri Jul 29 14:13:23 2022 as: nmap -vvv -O -p 1-10000 -oN MoxaSwitchScadaInABox2 -e enp0s8 192.168.110.50
+Nmap scan report for 192.168.110.50 [host down, received no-response]
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Jul 29 14:13:24 2022 -- 1 IP address (0 hosts up) scanned in 0.77 seconds

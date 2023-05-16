@@ -1,0 +1,44 @@
+# Nmap 7.60 scan initiated Tue Jul 26 13:41:38 2022 as: nmap -vvv -p 1-2000 -O -oN moxa.fingerprint 192.168.110.51
+Increasing send delay for 192.168.110.51 from 0 to 5 due to 48 out of 158 dropped probes since last increase.
+Increasing send delay for 192.168.110.51 from 5 to 10 due to 54 out of 178 dropped probes since last increase.
+Increasing send delay for 192.168.110.51 from 10 to 20 due to 11 out of 30 dropped probes since last increase.
+Increasing send delay for 192.168.110.51 from 20 to 40 due to 11 out of 32 dropped probes since last increase.
+Increasing send delay for 192.168.110.51 from 40 to 80 due to 11 out of 33 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -187951 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -187951 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -164758 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -164758 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -185069 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -185069 microseconds.  Ignoring time.
+Nmap scan report for 192.168.110.51
+Host is up, received arp-response (0.0016s latency).
+Scanned at 2022-07-26 13:41:38 PDT for 196s
+Not shown: 1997 closed ports
+Reason: 1997 resets
+PORT    STATE SERVICE REASON
+23/tcp  open  telnet  syn-ack ttl 64
+80/tcp  open  http    syn-ack ttl 64
+502/tcp open  mbap    syn-ack ttl 64
+MAC Address: 00:90:E8:5D:ED:FD (Moxa Technologies)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=7/26%OT=23%CT=1%CU=43228%PV=Y%DS=1%DC=D%G=Y%M=0090E8%T
+OS:M=62E05246%P=x86_64-pc-linux-gnu)SEQ(SP=ED%GCD=1%ISR=F2%TI=I%CI=I%TS=A)S
+OS:EQ(SP=F3%GCD=1%ISR=F9%TI=I%TS=A)OPS(O1=M5B4NW0NNT11%O2=M5B4NW0NNT11%O3=M
+OS:5B4NW0NNT11%O4=M5B4NW0NNT11%O5=M5B4NW0NNT11%O6=M5B4NNT11)WIN(W1=43E0%W2=
+OS:4110%W3=423C%W4=4074%W5=4180%W6=403D)ECN(R=Y%DF=Y%T=40%W=4470%O=M5B4NW0%
+OS:CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W
+OS:=403D%S=O%A=S+%F=AS%O=M5B4NW0NNT11%RD=0%Q=)T4(R=Y%DF=N%T=40%W=0%S=A%A=Z%
+OS:F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N
+OS:%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD
+OS:=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(
+OS:R=Y%DFI=S%T=40%CD=S)
+
+Uptime guess: 0.110 days (since Tue Jul 26 11:06:20 2022)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=249 (Good luck!)
+IP ID Sequence Generation: Incremental
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 26 13:44:54 2022 -- 1 IP address (1 host up) scanned in 197.03 seconds
